@@ -1,0 +1,231 @@
+,StationId,StationName,City,State,Status,Location,Latitude,Longitude
+0,AP001,"Secretariat, Amaravati ",Amaravati,Andhra Pradesh,Active,"(16.5384664, 80.487276)",16.5384664,80.487276
+1,AP002,"Anand Kala Kshetram, Rajamahendravaram ",Rajamahendravaram,Andhra Pradesh,,,,
+2,AP003,"Tirumala, Tirupati ",Tirupati,Andhra Pradesh,,"(13.6795235, 79.3497522)",13.6795235,79.3497522
+3,AP004,"PWD Grounds, Vijayawada ",Vijayawada,Andhra Pradesh,,,,
+4,AP005,"GVM Corporation, Visakhapatnam ",Visakhapatnam,Andhra Pradesh,Active,,,
+5,AS001,"Railway Colony, Guwahati ",Guwahati,Assam,Active,"(26.1808827, 91.7824864)",26.1808827,91.7824864
+6,BR001,"Collectorate, Gaya ",Gaya,Bihar,,"(24.7874215, 84.9878318)",24.7874215,84.9878318
+7,BR002,"SFTI Kusdihra, Gaya ",Gaya,Bihar,,,,
+8,BR003,"Industrial Area, Hajipur ",Hajipur,Bihar,,,,
+9,BR004,"Muzaffarpur Collectorate, Muzaffarpur ",Muzaffarpur,Bihar,,,,
+10,BR005,"DRM Office Danapur, Patna ",Patna,Bihar,Active,"(25.5854515, 85.0448266)",25.5854515,85.0448266
+11,BR006,"Govt. High School Shikarpur, Patna ",Patna,Bihar,Active,,,
+12,BR007,"IGSC Planetarium Complex, Patna ",Patna,Bihar,Active,,,
+13,BR008,"Muradpur, Patna ",Patna,Bihar,Active,,,
+14,BR009,"Rajbansi Nagar, Patna ",Patna,Bihar,Active,"(25.6066335, 85.1014347)",25.6066335,85.1014347
+15,BR010,"Samanpura, Patna ",Patna,Bihar,Active,,,
+16,CH001,"Sector-25, Chandigarh ",Chandigarh,Chandigarh,Active,"(30.7516466, 76.7567324)",30.7516466,76.7567324
+17,DL001,"Alipur, Delhi ",Delhi,Delhi,Active,"(28.7973118, 77.138667)",28.7973118,77.138667
+18,DL002,"Anand Vihar, Delhi ",Delhi,Delhi,Active,"(28.6466157, 77.3155317)",28.6466157,77.3155317
+19,DL003,"Ashok Vihar, Delhi ",Delhi,Delhi,Active,"(28.6885171, 77.1739339)",28.6885171,77.1739339
+20,DL004,"Aya Nagar, Delhi ",Delhi,Delhi,Active,"(28.476491, 77.1329132)",28.476491,77.1329132
+21,DL005,"Bawana, Delhi ",Delhi,Delhi,Active,"(28.79966, 77.0328847)",28.79966,77.0328847
+22,DL006,"Burari Crossing, Delhi ",Delhi,Delhi,Inactive,"(28.7285944, 77.1993251)",28.7285944,77.1993251
+23,DL007,"CRRI Mathura Road, Delhi ",Delhi,Delhi,Active,"(28.5500925, 77.2751557)",28.5500925,77.2751557
+24,DL008,"DTU, Delhi ",Delhi,Delhi,Active,"(28.7508153, 77.1162765)",28.7508153,77.1162765
+25,DL009,"Dr. Karni Singh Shooting Range, Delhi ",Delhi,Delhi,Active,"(28.5000822, 77.2675147)",28.5000822,77.2675147
+26,DL010,"Dwarka-Sector 8, Delhi ",Delhi,Delhi,Active,"(28.5656109, 77.0670366)",28.5656109,77.0670366
+27,DL011,"East Arjun Nagar, Delhi ",Delhi,Delhi,Active,"(28.6569534, 77.2947178)",28.6569534,77.2947178
+28,DL012,"IGI Airport (T3), Delhi ",Delhi,Delhi,Active,"(28.5543559, 77.0974746)",28.5543559,77.0974746
+29,DL013,"IHBAS, Dilshad Garden, Delhi ",Delhi,Delhi,Active,,,
+30,DL014,"ITO, Delhi ",Delhi,Delhi,Active,"(28.6281909, 77.2410437)",28.6281909,77.2410437
+31,DL015,"Jahangirpuri, Delhi ",Delhi,Delhi,Active,"(28.7259717, 77.162658)",28.7259717,77.162658
+32,DL016,"Jawaharlal Nehru Stadium, Delhi ",Delhi,Delhi,Active,"(28.5833771, 77.2335404)",28.5833771,77.2335404
+33,DL017,"Lodhi Road, Delhi ",Delhi,Delhi,Active,"(28.5929459, 77.2417643)",28.5929459,77.2417643
+34,DL018,"Major Dhyan Chand National Stadium, Delhi ",Delhi,Delhi,Active,"(28.6126342, 77.2373304)",28.6126342,77.2373304
+35,DL019,"Mandir Marg, Delhi ",Delhi,Delhi,Active,"(28.638568, 77.2035761)",28.638568,77.2035761
+36,DL020,"Mundka, Delhi ",Delhi,Delhi,Active,"(28.6819261, 77.0308105)",28.6819261,77.0308105
+37,DL021,"NSIT Dwarka, Delhi ",Delhi,Delhi,Active,"(28.6109477, 77.0384563)",28.6109477,77.0384563
+38,DL022,"Najafgarh, Delhi ",Delhi,Delhi,Active,"(28.6124504, 76.9865067)",28.6124504,76.9865067
+39,DL023,"Narela, Delhi ",Delhi,Delhi,Active,"(28.8464766, 77.0856631)",28.8464766,77.0856631
+40,DL024,"Nehru Nagar, Delhi ",Delhi,Delhi,Active,"(28.5685108, 77.2513847)",28.5685108,77.2513847
+41,DL025,"North Campus, DU, Delhi ",Delhi,Delhi,Active,,,
+42,DL026,"Okhla Phase-2, Delhi ",Delhi,Delhi,Active,"(28.6138954, 77.2090057)",28.6138954,77.2090057
+43,DL027,"Patparganj, Delhi ",Delhi,Delhi,Active,"(28.6115923, 77.2905644)",28.6115923,77.2905644
+44,DL028,"Punjabi Bagh, Delhi ",Delhi,Delhi,Active,"(28.672995, 77.1461239)",28.672995,77.1461239
+45,DL029,"Pusa, Delhi ",Delhi,Delhi,Active,"(28.6362997, 77.1576444)",28.6362997,77.1576444
+46,DL030,"Pusa, Delhi ",Delhi,Delhi,Active,"(28.6362997, 77.1576444)",28.6362997,77.1576444
+47,DL031,"R K Puram, Delhi ",Delhi,Delhi,Active,"(28.5503805, 77.1855231)",28.5503805,77.1855231
+48,DL032,"Rohini, Delhi ",Delhi,Delhi,Active,"(28.7162092, 77.1170743)",28.7162092,77.1170743
+49,DL033,"Shadipur, Delhi ",Delhi,Delhi,Active,"(28.6515829, 77.1582587)",28.6515829,77.1582587
+50,DL034,"Sirifort, Delhi ",Delhi,Delhi,Active,"(28.5501575, 77.2249099)",28.5501575,77.2249099
+51,DL035,"Sonia Vihar, Delhi ",Delhi,Delhi,Active,"(28.7199257, 77.2481823)",28.7199257,77.2481823
+52,DL036,"Sri Aurobindo Marg, Delhi ",Delhi,Delhi,Active,"(28.5396291, 77.2000301)",28.5396291,77.2000301
+53,DL037,"Vivek Vihar, Delhi ",Delhi,Delhi,Active,"(28.6691641, 77.312267)",28.6691641,77.312267
+54,DL038,"Wazirpur, Delhi ",Delhi,Delhi,Active,"(28.6800843, 77.1702212)",28.6800843,77.1702212
+55,GJ001,"Maninagar, Ahmedabad ",Ahmedabad,Gujarat,Active,"(22.9986596, 72.6114013)",22.9986596,72.6114013
+56,GJ002,"GIDC, Ankleshwar ",Ankleshwar,Gujarat,,"(21.6363905, 72.9887017)",21.6363905,72.9887017
+57,GJ003,"Sector-10, Gandhinagar ",Gandhinagar,Gujarat,,"(23.2156209, 72.6550405)",23.2156209,72.6550405
+58,GJ004,"GIDC, Nandesari ",Nandesari,Gujarat,,,,
+59,GJ005,"Phase-1 GIDC, Vapi ",Vapi,Gujarat,,,,
+60,GJ006,"Phase-4 GIDC, Vatva ",Vatva,Gujarat,,"(22.9556699, 72.6367492)",22.9556699,72.6367492
+61,HR001,"Patti Mehar, Ambala ",Ambala,Haryana,Active,,,
+62,HR002,"Arya Nagar, Bahadurgarh ",Bahadurgarh,Haryana,Active,,,
+63,HR003,"Nathu Colony, Ballabgarh ",Ballabgarh,Haryana,Active,,,
+64,HR004,"H.B. Colony, Bhiwani ",Bhiwani,Haryana,Active,,,
+65,HR005,"Municipal Corporation Office, Dharuhera ",Dharuhera,Haryana,Active,,,
+66,HR006,"New Industrial Town, Faridabad ",Faridabad,Haryana,Active,,,
+67,HR007,"Sector 11, Faridabad ",Faridabad,Haryana,Active,"(28.3759341, 77.3185441)",28.3759341,77.3185441
+68,HR008,"Sector 30, Faridabad ",Faridabad,Haryana,Active,"(28.4427368, 77.3204489)",28.4427368,77.3204489
+69,HR009,"Sector- 16A, Faridabad ",Faridabad,Haryana,Active,"(28.4096153, 77.3147814)",28.4096153,77.3147814
+70,HR010,"Huda Sector, Fatehabad ",Fatehabad,Haryana,Active,,,
+71,HR011,"NISE Gwal Pahari, Gurugram ",Gurugram,Haryana,Active,,,
+72,HR012,"Sector-51, Gurugram ",Gurugram,Haryana,Active,"(28.4287011, 77.0666877)",28.4287011,77.0666877
+73,HR013,"Teri Gram, Gurugram ",Gurugram,Haryana,Active,"(28.4271632, 77.1488113)",28.4271632,77.1488113
+74,HR014,"Vikas Sadan, Gurugram ",Gurugram,Haryana,Active,,,
+75,HR015,"Urban Estate-II, Hisar ",Hisar,Haryana,Active,"(29.140792, 75.742052)",29.140792,75.742052
+76,HR016,"Police Lines, Jind ",Jind,Haryana,Active,,,
+77,HR017,"Rishi Nagar, Kaithal ",Kaithal,Haryana,Active,,,
+78,HR018,"Sector-12, Karnal ",Karnal,Haryana,Active,"(29.6982508, 77.0013135)",29.6982508,77.0013135
+79,HR019,"Sector-7, Kurukshetra ",Kurukshetra,Haryana,Active,"(29.9698482, 76.8733321)",29.9698482,76.8733321
+80,HR020,"General Hospital, Mandikhera ",Mandikhera,Haryana,Active,"(27.9001071, 76.9937678)",27.9001071,76.9937678
+81,HR021,"Sector-2 IMT, Manesar ",Manesar,Haryana,Active,"(28.3671851, 76.920669)",28.3671851,76.920669
+82,HR022,"Shastri Nagar, Narnaul ",Narnaul,Haryana,Active,,,
+83,HR023,"Shyam Nagar, Palwal ",Palwal,Haryana,Active,,,
+84,HR024,"Sector-6, Panchkula ",Panchkula,Haryana,Active,"(30.7062831, 76.8573289)",30.7062831,76.8573289
+85,HR025,"Sector-18, Panipat ",Panipat,Haryana,Active,"(29.437146, 76.9759344)",29.437146,76.9759344
+86,HR026,"MD University, Rohtak ",Rohtak,Haryana,Active,,,
+87,HR027,"F-Block, Sirsa ",Sirsa,Haryana,Active,,,
+88,HR028,"Murthal, Sonipat ",Sonipat,Haryana,Active,"(29.0396149, 77.0894535)",29.0396149,77.0894535
+89,HR029,"Gobind Pura, Yamuna Nagar ",Yamuna Nagar,Haryana,Active,,,
+90,JH001,"Tata Stadium, Jorapokhar ",Jorapokhar,Jharkhand,Active,,,
+91,KA001,"Vidayagiri, Bagalkot ",Bagalkot,Karnataka,,,,
+92,KA002,"BTM Layout, Bengaluru ",Bengaluru,Karnataka,Active,"(12.9140008, 77.6102821)",12.9140008,77.6102821
+93,KA003,"BWSSB Kadabesanahalli, Bengaluru ",Bengaluru,Karnataka,Active,,,
+94,KA004,"Bapuji Nagar, Bengaluru ",Bengaluru,Karnataka,Active,"(12.9556699, 77.5402492)",12.9556699,77.5402492
+95,KA005,"City Railway Station, Bengaluru ",Bengaluru,Karnataka,Active,"(12.9781739, 77.5695603)",12.9781739,77.5695603
+96,KA006,"Hebbal, Bengaluru ",Bengaluru,Karnataka,Active,"(13.0382184, 77.5919)",13.0382184,77.5919
+97,KA007,"Hombegowda Nagar, Bengaluru ",Bengaluru,Karnataka,Active,"(12.9301311, 77.6012969)",12.9301311,77.6012969
+98,KA008,"Jayanagar 5th Block, Bengaluru ",Bengaluru,Karnataka,Active,"(12.9196037, 77.583381)",12.9196037,77.583381
+99,KA009,"Peenya, Bengaluru ",Bengaluru,Karnataka,Active,"(13.0330515, 77.5332233)",13.0330515,77.5332233
+100,KA010,"Sanegurava Halli, Bengaluru ",Bengaluru,Karnataka,Active,,,
+101,KA011,"Silk Board, Bengaluru ",Bengaluru,Karnataka,Active,"(12.9170295, 77.6223209)",12.9170295,77.6223209
+102,KA012,"Urban, Chamarajanagar ",Chamarajanagar,Karnataka,,,,
+103,KA013,"Chikkaballapur Rural, Chikkaballapur ",Chikkaballapur,Karnataka,,,,
+104,KA014,"Kalyana Nagara, Chikkamagaluru ",Chikkamagaluru,Karnataka,,,,
+105,KA015,"Deshpande Nagar, Hubballi ",Hubballi,Karnataka,,"(15.3597632, 75.1362948)",15.3597632,75.1362948
+106,KA016,"Lal Bahadur Shastri Nagar, Kalaburagi ",Kalaburagi,Karnataka,,,,
+107,KA017,"Hebbal 1st Stage, Mysuru ",Mysuru,Karnataka,,,,
+108,KA018,"Vijay Nagar, Ramanagara ",Ramanagara,Karnataka,,,,
+109,KA019,"Ibrahimpur, Vijayapura ",Vijayapura,Karnataka,,"(16.8034264, 75.7199513)",16.8034264,75.7199513
+110,KA020,"Collector Office, Yadgir ",Yadgir,Karnataka,,,,
+111,KL001,"Udyogamandal, Eloor ",Eloor,Kerala,,"(10.0672963, 76.3091207)",10.0672963,76.3091207
+112,KL002,"Kacheripady, Ernakulam ",Ernakulam,Kerala,,"(9.9859094, 76.2834722)",9.9859094,76.2834722
+113,KL003,"Thavakkara, Kannur ",Kannur,Kerala,,"(11.8718213, 75.3676065)",11.8718213,75.3676065
+114,KL004,"Vyttila, Kochi ",Kochi,Kerala,,"(9.9636706, 76.3181282)",9.9636706,76.3181282
+115,KL005,"Polayathode, Kollam ",Kollam,Kerala,,,,
+116,KL006,"Palayam, Kozhikode ",Kozhikode,Kerala,,"(11.2459092, 75.7803858)",11.2459092,75.7803858
+117,KL007,"Kariavattom, Thiruvananthapuram ",Thiruvananthapuram,Kerala,Active,"(8.5549422, 76.8855036)",8.5549422,76.8855036
+118,KL008,"Plammoodu, Thiruvananthapuram ",Thiruvananthapuram,Kerala,Active,,,
+119,MP001,"T T Nagar, Bhopal ",Bhopal,Madhya Pradesh,Active,"(23.2286993, 77.4002881)",23.2286993,77.4002881
+120,MP002,"Shrivastav Colony, Damoh ",Damoh,Madhya Pradesh,,,,
+121,MP003,"Bhopal Chauraha, Dewas ",Dewas,Madhya Pradesh,,,,
+122,MP004,"City Center, Gwalior ",Gwalior,Madhya Pradesh,,,,
+123,MP005,"Phool Bagh, Gwalior ",Gwalior,Madhya Pradesh,,,,
+124,MP006,"Chhoti Gwaltoli, Indore ",Indore,Madhya Pradesh,,,,
+125,MP007,"Marhatal, Jabalpur ",Jabalpur,Madhya Pradesh,,,,
+126,MP008,"Gole Bazar, Katni ",Katni,Madhya Pradesh,,,,
+127,MP009,"Sahilara, Maihar ",Maihar,Madhya Pradesh,,"(24.2461982, 80.7277537)",24.2461982,80.7277537
+128,MP010,"Sector-D Industrial Area, Mandideep ",Mandideep,Madhya Pradesh,,,,
+129,MP011,"Sector-2 Industrial Area, Pithampur ",Pithampur,Madhya Pradesh,,,,
+130,MP012,"Shasthri Nagar, Ratlam ",Ratlam,Madhya Pradesh,,,,
+131,MP013,"Deen Dayal Nagar, Sagar ",Sagar,Madhya Pradesh,,,,
+132,MP014,"Bandhavgar Colony, Satna ",Satna,Madhya Pradesh,,,,
+133,MP015,"Vindhyachal STPS, Singrauli ",Singrauli,Madhya Pradesh,,,,
+134,MP016,"Mahakaleshwar Temple, Ujjain ",Ujjain,Madhya Pradesh,,"(23.1829722, 75.7681851)",23.1829722,75.7681851
+135,MH001,"More Chowk Waluj, Aurangabad ",Aurangabad,Maharashtra,,"(19.8407794, 75.2471696)",19.8407794,75.2471696
+136,MH002,"Chandrapur, Chandrapur ",Chandrapur,Maharashtra,,"(19.9508161, 79.2986673)",19.9508161,79.2986673
+137,MH003,"MIDC Khutala, Chandrapur ",Chandrapur,Maharashtra,,"(19.9777956, 79.2363327)",19.9777956,79.2363327
+138,MH004,"Khadakpada, Kalyan ",Kalyan,Maharashtra,,"(19.2363883, 73.1303624)",19.2363883,73.1303624
+139,MH005,"Bandra, Mumbai ",Mumbai,Maharashtra,Active,"(19.0549792, 72.8402203)",19.0549792,72.8402203
+140,MH006,"Borivali East, Mumbai ",Mumbai,Maharashtra,Active,"(19.2267228, 72.8619328)",19.2267228,72.8619328
+141,MH007,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai ",Mumbai,Maharashtra,Active,,,
+142,MH008,"Colaba, Mumbai ",Mumbai,Maharashtra,Active,"(18.915091, 72.8259691)",18.915091,72.8259691
+143,MH009,"Kurla, Mumbai ",Mumbai,Maharashtra,Active,"(19.0655397, 72.8795636)",19.0655397,72.8795636
+144,MH010,"Powai, Mumbai ",Mumbai,Maharashtra,Active,"(19.1187195, 72.9073476)",19.1187195,72.9073476
+145,MH011,"Sion, Mumbai ",Mumbai,Maharashtra,Active,"(19.0465213, 72.8632834)",19.0465213,72.8632834
+146,MH012,"Vasai West, Mumbai ",Mumbai,Maharashtra,Active,,,
+147,MH013,"Vile Parle West, Mumbai ",Mumbai,Maharashtra,Active,"(19.103908, 72.840301)",19.103908,72.840301
+148,MH014,"Worli, Mumbai ",Mumbai,Maharashtra,Active,"(19.0117388, 72.8178706)",19.0117388,72.8178706
+149,MH015,"Opp GPO Civil Lines, Nagpur ",Nagpur,Maharashtra,,,,
+150,MH016,"Gangapur Road, Nashik ",Nashik,Maharashtra,,"(20.0132845, 73.7417717)",20.0132845,73.7417717
+151,MH017,"Airoli, Navi Mumbai ",Navi Mumbai,Maharashtra,,"(19.1585147, 72.9994019)",19.1585147,72.9994019
+152,MH018,"Mahape, Navi Mumbai ",Navi Mumbai,Maharashtra,,"(19.1093012, 73.0235724)",19.1093012,73.0235724
+153,MH019,"Nerul, Navi Mumbai ",Navi Mumbai,Maharashtra,,"(19.0335938, 73.018164)",19.0335938,73.018164
+154,MH020,"Karve Road, Pune ",Pune,Maharashtra,,"(18.5012255, 73.8144408)",18.5012255,73.8144408
+155,MH021,"Solapur, Solapur ",Solapur,Maharashtra,,"(17.6699734, 75.9008118)",17.6699734,75.9008118
+156,MH022,"Pimpleshwar Mandir, Thane ",Thane,Maharashtra,,,,
+157,ML001,"Lumpyngngad, Shillong ",Shillong,Meghalaya,Active,,,
+158,MZ001,"Sikulpuikawn, Aizawl ",Aizawl,Mizoram,Active,,,
+159,OD001,"GM Office, Brajrajnagar ",Brajrajnagar,Odisha,Active,,,
+160,OD002,"Talcher Coalfields,Talcher ",Talcher,Odisha,Active,,,
+161,PB001,"Golden Temple, Amritsar ",Amritsar,Punjab,Active,"(31.6199787, 74.8765281)",31.6199787,74.8765281
+162,PB002,"Hardev Nagar, Bathinda ",Bathinda,Punjab,,,,
+163,PB003,"Civil Line, Jalandhar ",Jalandhar,Punjab,,,,
+164,PB004,"Kalal Majra, Khanna ",Khanna,Punjab,,"(30.7715259, 76.1994007)",30.7715259,76.1994007
+165,PB005,"Punjab Agricultural University, Ludhiana ",Ludhiana,Punjab,,"(30.9040094, 75.8004222)",30.9040094,75.8004222
+166,PB006,"RIMT University, Mandi Gobindgarh ",Gobindgarh,Punjab,,,,
+167,PB007,"Model Town, Patiala ",Patiala,Punjab,,"(30.1968445, 74.948308)",30.1968445,74.948308
+168,PB008,"Ratanpura, Rupnagar ",Rupnagar,Punjab,,,,
+169,RJ001,"Moti Doongri, Alwar ",Alwar,Rajasthan,,,,
+170,RJ002,"Civil Lines, Ajmer ",Ajmer,Rajasthan,,"(26.9096783, 75.7812494)",26.9096783,75.7812494
+171,RJ003,"RIICO Ind. Area III, Bhiwadi ",Bhiwandi,Rajasthan,,,,
+172,RJ004,"Adarsh Nagar, Jaipur ",Jaipur,Rajasthan,Active,"(26.8986698, 75.8163567)",26.8986698,75.8163567
+173,RJ005,"Police Commissionerate, Jaipur ",Jaipur,Rajasthan,Active,"(26.9160258, 75.8015394)",26.9160258,75.8015394
+174,RJ006,"Shastri Nagar, Jaipur ",Jaipur,Rajasthan,Active,"(26.9332789, 75.7972295)",26.9332789,75.7972295
+175,RJ007,"Collectorate, Jodhpur ",Jodhpur,Rajasthan,,,,
+176,RJ008,"Shrinath Puram, Kota ",Kota,Rajasthan,,,,
+177,RJ009,"Indira Colony Vistar, Pali ",Pali,Rajasthan,,,,
+178,RJ010,"Ashok Nagar, Udaipur ",Udaipur,Rajasthan,,"(24.5863748, 73.7042635)",24.5863748,73.7042635
+179,TN001,"Alandur Bus Depot, Chennai ",Chennai,Tamil Nadu,Active,,,
+180,TN002,"Manali Village, Chennai ",Chennai,Tamil Nadu,Active,,,
+181,TN003,"Manali, Chennai ",Chennai,Tamil Nadu,Active,"(13.1672275, 80.2598107)",13.1672275,80.2598107
+182,TN004,"Velachery Res. Area, Chennai ",Chennai,Tamil Nadu,Active,,,
+183,TN005,"SIDCO Kurichi, Coimbatore ",Coimbatore,Tamil Nadu,Active,,,
+184,TG001,"Bollaram Industrial Area, Hyderabad ",Hyderabad,Telangana,Active,,,
+185,TG002,"Central University, Hyderabad ",Hyderabad,Telangana,Active,"(17.4094797, 78.5060608)",17.4094797,78.5060608
+186,TG003,"ICRISAT Patancheru, Hyderabad ",Hyderabad,Telangana,Active,"(17.496315, 78.2677697)",17.496315,78.2677697
+187,TG004,"IDA Pashamylaram, Hyderabad ",Hyderabad,Telangana,Active,,,
+188,TG005,"Sanathnagar, Hyderabad ",Hyderabad,Telangana,Active,"(17.4569654, 78.4434781)",17.4569654,78.4434781
+189,TG006,"Zoo Park, Hyderabad ",Hyderabad,Telangana,Active,"(17.3569337, 78.4513648)",17.3569337,78.4513648
+190,UP001,"Sanjay Palace, Agra ",Agra,Uttar Pradesh,,,,
+191,UP002,"New Collectorate, Baghpat ",Baghpat,Uttar Pradesh,,,,
+192,UP003,"Yamunapuram, Bulandshahr ",Bulandshahr,Uttar Pradesh,,,,
+193,UP004,"Indirapuram, Ghaziabad ",Ghaziabad,Uttar Pradesh,,"(28.6423908, 77.3684892)",28.6423908,77.3684892
+194,UP005,"Loni, Ghaziabad ",Ghaziabad,Uttar Pradesh,,"(28.7317295, 77.2900919)",28.7317295,77.2900919
+195,UP006,"Sanjay Nagar, Ghaziabad ",Ghaziabad,Uttar Pradesh,,"(28.6313989, 77.4709115)",28.6313989,77.4709115
+196,UP007,"Vasundhara, Ghaziabad ",Ghaziabad,Uttar Pradesh,,"(28.6619725, 77.3732972)",28.6619725,77.3732972
+197,UP008,"Knowledge Park - III, Greater Noida ",Greater Noida,Uttar Pradesh,,"(28.478588, 77.4813689)",28.478588,77.4813689
+198,UP009,"Knowledge Park - V, Greater Noida ",Greater Noida,Uttar Pradesh,,"(28.478588, 77.4813689)",28.478588,77.4813689
+199,UP010,"Anand Vihar, Hapur ",Hapur,Uttar Pradesh,,,,
+200,UP011,"Nehru Nagar, Kanpur ",Kanpur,Uttar Pradesh,,"(26.4722201, 80.3241388)",26.4722201,80.3241388
+201,UP012,"Central School, Lucknow ",Lucknow,Uttar Pradesh,Active,"(26.8824594, 81.0004318)",26.8824594,81.0004318
+202,UP013,"Gomti Nagar, Lucknow ",Lucknow,Uttar Pradesh,Active,"(26.8611743, 81.0039196)",26.8611743,81.0039196
+203,UP014,"Lalbagh, Lucknow ",Lucknow,Uttar Pradesh,Active,"(26.7908341, 80.8701804)",26.7908341,80.8701804
+204,UP015,"Nishant Ganj, Lucknow ",Lucknow,Uttar Pradesh,Inactive,,,
+205,UP016,"Talkatora District Industries Center, Lucknow ",Lucknow,Uttar Pradesh,Active,,,
+206,UP017,"Ganga Nagar, Meerut ",Meerut,Uttar Pradesh,,"(28.9997246, 77.7593586)",28.9997246,77.7593586
+207,UP018,"Jai Bhim Nagar, Meerut ",Meerut,Uttar Pradesh,,"(28.956187, 77.7604062)",28.956187,77.7604062
+208,UP019,"Pallavpuram Phase 2, Meerut ",Meerut,Uttar Pradesh,,"(29.0630475, 77.714386)",29.0630475,77.714386
+209,UP020,"Lajpat Nagar, Moradabad ",Moradabad,Uttar Pradesh,,,,
+210,UP021,"New Mandi, Muzaffarnagar ",Muzzaffarnagar,Uttar Pradesh,,,,
+211,UP022,"Sector - 125, Noida ",Noida,Uttar Pradesh,,"(28.5454077, 77.3297605)",28.5454077,77.3297605
+212,UP023,"Sector - 62, Noida ",Noida,Uttar Pradesh,,"(28.6211447, 77.3643493)",28.6211447,77.3643493
+213,UP024,"Sector-1, Noida ",Noida,Uttar Pradesh,,"(28.5902291, 77.3124577)",28.5902291,77.3124577
+214,UP025,"Sector-116, Noida ",Noida,Uttar Pradesh,,"(28.5648814, 77.4001488)",28.5648814,77.4001488
+215,UP026,"Ardhali Bazar, Varanasi ",Varanasi,Uttar Pradesh,,,,
+216,WB001,"Asansol Court Area, Asansol ",Asansol,West Bengal,,,,
+217,WB002,"Sidhu Kanhu Indoor Stadium, Durgapur ",Durgapur,West Bengal,,,,
+218,WB003,"Haldia, Haldia ",Haldia,West Bengal,,"(22.028124, 88.0632655)",22.028124,88.0632655
+219,WB004,"Belur Math, Howrah ",Howrah,West Bengal,,"(22.6323298, 88.3564507)",22.6323298,88.3564507
+220,WB005,"Ghusuri, Howrah ",Howrah,West Bengal,,,,
+221,WB006,"Padmapukur, Howrah ",Howrah,West Bengal,,"(22.5682566, 88.3057431)",22.5682566,88.3057431
+222,WB007,"Ballygunge, Kolkata ",Kolkata,West Bengal,Active,"(22.5280337, 88.3659084)",22.5280337,88.3659084
+223,WB008,"Bidhannagar, Kolkata ",Kolkata,West Bengal,Active,"(22.5917378, 88.3909399)",22.5917378,88.3909399
+224,WB009,"Fort William, Kolkata ",Kolkata,West Bengal,Active,"(22.5544966, 88.3380132)",22.5544966,88.3380132
+225,WB010,"Jadavpur, Kolkata ",Kolkata,West Bengal,Active,"(22.495499, 88.3709006)",22.495499,88.3709006
+226,WB011,"Rabindra Bharati University, Kolkata ",Kolkata,West Bengal,Active,,,
+227,WB012,"Rabindra Sarobar, Kolkata ",Kolkata,West Bengal,Active,"(22.5122563, 88.3635738)",22.5122563,88.3635738
+228,WB013,"Victoria, Kolkata ",Kolkata,West Bengal,Active,"(22.5497837, 88.3391136)",22.5497837,88.3391136
+229,WB014,"Ward-32 Bapupara, Siliguri ",Siliguri,West Bengal,,,,
