@@ -1,0 +1,231 @@
+StationId,StationName,City,State,Location,latitude,longitude
+AP001,"Secretariat, Amaravati ",Amaravati,Andhra Pradesh,"(16.5384664, 80.487276)",16.5384664,80.487276
+AP002,"Anand Kala Kshetram, Rajamahendravaram ",Rajamahendravaram,Andhra Pradesh,"(17.1779937,78.5962716)",17.1779937,78.5962716
+AP003,"Tirumala, Tirupati ",Tirupati,Andhra Pradesh,"(13.6795235, 79.3497522)",13.6795235,79.3497522
+AP004,"PWD Grounds, Vijayawada ",Vijayawada,Andhra Pradesh,"(16.506566,80.629433)",16.506566,80.629433
+AP005,"GVM Corporation, Visakhapatnam ",Visakhapatnam,Andhra Pradesh,"(17.7151271,83.1997752)",17.7151271,83.1997752
+AS001,"Railway Colony, Guwahati ",Guwahati,Assam,"(26.1808827, 91.7824864)",26.1808827,91.7824864
+BR001,"Collectorate, Gaya ",Gaya,Bihar,"(24.7874215, 84.9878318)",24.7874215,84.9878318
+BR002,"SFTI Kusdihra, Gaya ",Gaya,Bihar,"(24.7629198,84.9793463)",24.7629198,84.9793463
+BR003,"Industrial Area, Hajipur ",Hajipur,Bihar,"(25.6974154,85.2287286)",25.6974154,85.2287286
+BR004,"Muzaffarpur Collectorate, Muzaffarpur ",Muzaffarpur,Bihar,"(26.1235133,85.3786688)",26.1235133,85.3786688
+BR005,"DRM Office Danapur, Patna ",Patna,Bihar,"(25.5854515, 85.0448266)",25.5854515,85.0448266
+BR006,"Govt. High School Shikarpur, Patna ",Patna,Bihar,"(25.5929006,85.2246868)",25.5929006,85.2246868
+BR007,"IGSC Planetarium Complex, Patna ",Patna,Bihar,"(25.6102754,85.1293861)",25.6102754,85.1293861
+BR008,"Muradpur, Patna ",Patna,Bihar,"(25.6189426,85.1370556)",25.6189426,85.1370556
+BR009,"Rajbansi Nagar, Patna ",Patna,Bihar,"(25.6066335, 85.1014347)",25.6066335,85.1014347
+BR010,"Samanpura, Patna ",Patna,Bihar,"(25.6012282,85.0804538)",25.6012282,85.0804538
+CH001,"Sector-25, Chandigarh",Chandigarh,Chandigarh,"(30.7516466, 76.7567324)",30.7516466,76.7567324
+DL001,"Alipur, Delhi ",Delhi,Delhi,"(28.7973118, 77.138667)",28.7973118,77.138667
+DL002,"Anand Vihar, Delhi ",Delhi,Delhi,"(28.6466157, 77.3155317)",28.6466157,77.3155317
+DL003,"Ashok Vihar, Delhi ",Delhi,Delhi,"(28.6885171, 77.1739339)",28.6885171,77.1739339
+DL004,"Aya Nagar, Delhi ",Delhi,Delhi,"(28.476491, 77.1329132)",28.476491,77.1329132
+DL005,"Bawana, Delhi ",Delhi,Delhi,"(28.79966, 77.0328847)",28.79966,77.0328847
+DL006,"Burari Crossing, Delhi ",Delhi,Delhi,"(28.7285944, 77.1993251)",28.7285944,77.1993251
+DL007,"CRRI Mathura Road, Delhi ",Delhi,Delhi,"(28.5500925, 77.2751557)",28.5500925,77.2751557
+DL008,"DTU, Delhi ",Delhi,Delhi,"(28.7508153, 77.1162765)",28.7508153,77.1162765
+DL009,"Dr. Karni Singh Shooting Range, Delhi ",Delhi,Delhi,"(28.5000822, 77.2675147)",28.5000822,77.2675147
+DL010,"Dwarka-Sector 8, Delhi",Delhi,Delhi,"(28.5656109, 77.0670366)",28.5656109,77.0670366
+DL011,"East Arjun Nagar, Delhi ",Delhi,Delhi,"(28.6569534, 77.2947178)",28.6569534,77.2947178
+DL012,"IGI Airport (T3), Delhi",Delhi,Delhi,"(28.5543559, 77.0974746)",28.5543559,77.0974746
+DL013,"IHBAS, Dilshad Garden, Delhi ",Delhi,Delhi,"(28.6814403,77.3028964)",28.6814403,77.3028964
+DL014,"ITO, Delhi ",Delhi,Delhi,"(28.6281909, 77.2410437)",28.6281909,77.2410437
+DL015,"Jahangirpuri, Delhi ",Delhi,Delhi,"(28.7259717, 77.162658)",28.7259717,77.162658
+DL016,"Jawaharlal Nehru Stadium, Delhi ",Delhi,Delhi,"(28.5833771, 77.2335404)",28.5833771,77.2335404
+DL017,"Lodhi Road, Delhi ",Delhi,Delhi,"(28.5929459, 77.2417643)",28.5929459,77.2417643
+DL018,"Major Dhyan Chand National Stadium, Delhi ",Delhi,Delhi,"(28.6126342, 77.2373304)",28.6126342,77.2373304
+DL019,"Mandir Marg, Delhi ",Delhi,Delhi,"(28.638568, 77.2035761)",28.638568,77.2035761
+DL020,"Mundka, Delhi ",Delhi,Delhi,"(28.6819261, 77.0308105)",28.6819261,77.0308105
+DL021,"NSIT Dwarka, Delhi ",Delhi,Delhi,"(28.6109477, 77.0384563)",28.6109477,77.0384563
+DL022,"Najafgarh, Delhi ",Delhi,Delhi,"(28.6124504, 76.9865067)",28.6124504,76.9865067
+DL023,"Narela, Delhi ",Delhi,Delhi,"(28.8464766, 77.0856631)",28.8464766,77.0856631
+DL024,"Nehru Nagar, Delhi ",Delhi,Delhi,"(28.5685108, 77.2513847)",28.5685108,77.2513847
+DL025,"North Campus, DU, Delhi ",Delhi,Delhi,"(28.6885841,77.2095178)",28.6885841,77.2095178
+DL026,"Okhla Phase-2, Delhi",Delhi,Delhi,"(28.6138954, 77.2090057)",28.6138954,77.2090057
+DL027,"Patparganj, Delhi ",Delhi,Delhi,"(28.6115923, 77.2905644)",28.6115923,77.2905644
+DL028,"Punjabi Bagh, Delhi ",Delhi,Delhi,"(28.672995, 77.1461239)",28.672995,77.1461239
+DL029,"Pusa, Delhi ",Delhi,Delhi,"(28.6362997, 77.1576444)",28.6362997,77.1576444
+DL030,"Pusa, Delhi ",Delhi,Delhi,"(28.6362997, 77.1576444)",28.6362997,77.1576444
+DL031,"R K Puram, Delhi ",Delhi,Delhi,"(28.5503805, 77.1855231)",28.5503805,77.1855231
+DL032,"Rohini, Delhi ",Delhi,Delhi,"(28.7162092, 77.1170743)",28.7162092,77.1170743
+DL033,"Shadipur, Delhi ",Delhi,Delhi,"(28.6515829, 77.1582587)",28.6515829,77.1582587
+DL034,"Sirifort, Delhi ",Delhi,Delhi,"(28.5501575, 77.2249099)",28.5501575,77.2249099
+DL035,"Sonia Vihar, Delhi ",Delhi,Delhi,"(28.7199257, 77.2481823)",28.7199257,77.2481823
+DL036,"Sri Aurobindo Marg, Delhi ",Delhi,Delhi,"(28.5396291, 77.2000301)",28.5396291,77.2000301
+DL037,"Vivek Vihar, Delhi ",Delhi,Delhi,"(28.6691641, 77.312267)",28.6691641,77.312267
+DL038,"Wazirpur, Delhi ",Delhi,Delhi,"(28.6800843, 77.1702212)",28.6800843,77.1702212
+GJ001,"Maninagar, Ahmedabad ",Ahmedabad,Gujarat,"(22.9986596, 72.6114013)",22.9986596,72.6114013
+GJ002,"GIDC, Ankleshwar ",Ankleshwar,Gujarat,"(21.6363905, 72.9887017)",21.6363905,72.9887017
+GJ003,"Sector-10, Gandhinagar",Gandhinagar,Gujarat,"(23.2156209, 72.6550405)",23.2156209,72.6550405
+GJ004,"GIDC, Nandesari ",Nandesari,Gujarat,"(22.4104766,73.0872445)",22.4104766,73.0872445
+GJ005,"Phase-1 GIDC, Vapi",Vapi,Gujarat,"(20.3529418,72.9069987)",20.3529418,72.9069987
+GJ006,"Phase-4 GIDC, Vatva",Vatva,Gujarat,"(22.9556699, 72.6367492)",22.9556699,72.6367492
+HR001,"Patti Mehar, Ambala ",Ambala,Haryana,"(30.3783115,76.7685196)",30.3783115,76.7685196
+HR002,"Arya Nagar, Bahadurgarh ",Bahadurgarh,Haryana,"(28.6763823,76.9242081)",28.6763823,76.9242081
+HR003,"Nathu Colony, Ballabgarh ",Ballabgarh,Haryana,"(28.3424045,77.3175838)",28.3424045,77.3175838
+HR004,"H.B. Colony, Bhiwani ",Bhiwani,Haryana,"(28.8061368,76.1312791)",28.8061368,76.1312791
+HR005,"Municipal Corporation Office, Dharuhera ",Dharuhera,Haryana,"(28.2066656,76.7971797)",28.2066656,76.7971797
+HR006,"New Industrial Town, Faridabad ",Faridabad,Haryana,"(28.3916018,77.2784909)",28.3916018,77.2784909
+HR007,"Sector 11, Faridabad",Faridabad,Haryana,"(28.3759341, 77.3185441)",28.3759341,77.3185441
+HR008,"Sector 30, Faridabad",Faridabad,Haryana,"(28.4427368, 77.3204489)",28.4427368,77.3204489
+HR009,"Sector- 16A, Faridabad",Faridabad,Haryana,"(28.4096153, 77.3147814)",28.4096153,77.3147814
+HR010,"Huda Sector, Fatehabad ",Fatehabad,Haryana,"(29.503024,75.4715755)",29.503024,75.4715755
+HR011,"NISE Gwal Pahari, Gurugram ",Gurugram,Haryana,"(28.4241193,77.1459602)",28.4241193,77.1459602
+HR012,"Sector-51, Gurugram",Gurugram,Haryana,"(28.4287011, 77.0666877)",28.4287011,77.0666877
+HR013,"Teri Gram, Gurugram ",Gurugram,Haryana,"(28.4271632, 77.1488113)",28.4271632,77.1488113
+HR014,"Vikas Sadan, Gurugram ",Gurugram,Haryana,"(28.4501285,77.0259189)",28.4501285,77.0259189
+HR015,"Urban Estate-II, Hisar ",Hisar,Haryana,"(29.140792, 75.742052)",29.140792,75.742052
+HR016,"Police Lines, Jind ",Jind,Haryana,"(29.3078043,76.3426851)",29.3078043,76.3426851
+HR017,"Rishi Nagar, Kaithal ",Kaithal,Haryana,"(29.8046107,76.4111421)",29.8046107,76.4111421
+HR018,"Sector-12, Karnal",Karnal,Haryana,"(29.6982508, 77.0013135)",29.6982508,77.0013135
+HR019,"Sector-7, Kurukshetra",Kurukshetra,Haryana,"(29.9698482, 76.8733321)",29.9698482,76.8733321
+HR020,"General Hospital, Mandikhera ",Mandikhera,Haryana,"(27.9001071, 76.9937678)",27.9001071,76.9937678
+HR021,"Sector-2 IMT, Manesar",Manesar,Haryana,"(28.3671851, 76.920669)",28.3671851,76.920669
+HR022,"Shastri Nagar, Narnaul ",Narnaul,Haryana,"28.06388,76.1136255",28.06388,76.1136255
+HR023,"Shyam Nagar, Palwal ",Palwal,Haryana,"28.1485564,77.3322554",28.1485564,77.3322554
+HR024,"Sector-6, Panchkula",Panchkula,Haryana,"(30.7062831, 76.8573289)",30.7062831,76.8573289
+HR025,"Sector-18, Panipat",Panipat,Haryana,"(29.437146, 76.9759344)",29.437146,76.9759344
+HR026,"MD University, Rohtak ",Rohtak,Haryana,"28.7544021,76.9504484",28.7544021,76.9504484
+HR027,"F-Block, Sirsa ",Sirsa,Haryana,"29.536716,75.0165024",29.536716,75.0165024
+HR028,"Murthal, Sonipat ",Sonipat,Haryana,"(29.0396149, 77.0894535)",29.0396149,77.0894535
+HR029,"Gobind Pura, Yamuna Nagar ",Yamuna Nagar,Haryana,"30.1508518,77.285047",30.1508518,77.285047
+JH001,"Tata Stadium, Jorapokhar ",Jorapokhar,Jharkhand,"23.7085277,86.4133652",23.7085277,86.4133652
+KA001,"Vidayagiri, Bagalkot ",Bagalkot,Karnataka,"16.1774545,75.6603705",16.1774545,75.6603705
+KA002,"BTM Layout, Bengaluru ",Bengaluru,Karnataka,"(12.9140008, 77.6102821)",12.9140008,77.6102821
+KA003,"BWSSB Kadabesanahalli, Bengaluru ",Bengaluru,Karnataka,"12.9721727,77.5129318",12.9721727,77.5129318
+KA004,"Bapuji Nagar, Bengaluru ",Bengaluru,Karnataka,"(12.9556699, 77.5402492)",12.9556699,77.5402492
+KA005,"City Railway Station, Bengaluru ",Bengaluru,Karnataka,"(12.9781739, 77.5695603)",12.9781739,77.5695603
+KA006,"Hebbal, Bengaluru ",Bengaluru,Karnataka,"(13.0382184, 77.5919)",13.0382184,77.5919
+KA007,"Hombegowda Nagar, Bengaluru ",Bengaluru,Karnataka,"(12.9301311, 77.6012969)",12.9301311,77.6012969
+KA008,"Jayanagar 5th Block, Bengaluru",Bengaluru,Karnataka,"(12.9196037, 77.583381)",12.9196037,77.583381
+KA009,"Peenya, Bengaluru ",Bengaluru,Karnataka,"(13.0330515, 77.5332233)",13.0330515,77.5332233
+KA010,"Sanegurava Halli, Bengaluru ",Bengaluru,Karnataka,"12.990328,77.5442355",12.990328,77.5442355
+KA011,"Silk Board, Bengaluru ",Bengaluru,Karnataka,"(12.9170295, 77.6223209)",12.9170295,77.6223209
+KA012,"Urban, Chamarajanagar ",Chamarajanagar,Karnataka,"11.9289209,76.9317485",11.9289209,76.9317485
+KA013,"Chikkaballapur Rural, Chikkaballapur ",Chikkaballapur,Karnataka,"13.4309249,77.7328249",13.4309249,77.7328249
+KA014,"Kalyana Nagara, Chikkamagaluru ",Chikkamagaluru,Karnataka,"13.3223737,75.7962978",13.3223737,75.7962978
+KA015,"Deshpande Nagar, Hubballi ",Hubballi,Karnataka,"(15.3597632, 75.1362948)",15.3597632,75.1362948
+KA016,"Lal Bahadur Shastri Nagar, Kalaburagi ",Kalaburagi,Karnataka,"17.320104,76.8203305",17.320104,76.8203305
+KA017,"Hebbal 1st Stage, Mysuru",Mysuru,Karnataka,"12.3490305,76.6162425",12.3490305,76.6162425
+KA018,"Vijay Nagar, Ramanagara ",Ramanagara,Karnataka,"12.7346271,77.2933375",12.7346271,77.2933375
+KA019,"Ibrahimpur, Vijayapura ",Vijayapura,Karnataka,"(16.8034264, 75.7199513)",16.8034264,75.7199513
+KA020,"Collector Office, Yadgir ",Yadgir,Karnataka,"16.751388,77.1363297",16.751388,77.1363297
+KL001,"Udyogamandal, Eloor ",Eloor,Kerala,"(10.0672963, 76.3091207)",10.0672963,76.3091207
+KL002,"Kacheripady, Ernakulam ",Ernakulam,Kerala,"(9.9859094, 76.2834722)",9.9859094,76.2834722
+KL003,"Thavakkara, Kannur ",Kannur,Kerala,"(11.8718213, 75.3676065)",11.8718213,75.3676065
+KL004,"Vyttila, Kochi ",Kochi,Kerala,"(9.9636706, 76.3181282)",9.9636706,76.3181282
+KL005,"Polayathode, Kollam ",Kollam,Kerala,"8.8789734,76.607216",8.8789734,76.607216
+KL006,"Palayam, Kozhikode ",Kozhikode,Kerala,"(11.2459092, 75.7803858)",11.2459092,75.7803858
+KL007,"Kariavattom, Thiruvananthapuram ",Thiruvananthapuram,Kerala,"(8.5549422, 76.8855036)",8.5549422,76.8855036
+KL008,"Plammoodu, Thiruvananthapuram ",Thiruvananthapuram,Kerala,"8.5126983,76.9473987",8.5126983,76.9473987
+MP001,"T T Nagar, Bhopal ",Bhopal,Madhya Pradesh,"(23.2286993, 77.4002881)",23.2286993,77.4002881
+MP002,"Shrivastav Colony, Damoh ",Damoh,Madhya Pradesh,"23.8190926,79.4382941",23.8190926,79.4382941
+MP003,"22.9688223,76.0636139",Dewas,Madhya Pradesh,"22.9688223,76.0636139",22.9688223,76.0636139
+MP004,"City Center, Gwalior ",Gwalior,Madhya Pradesh,"26.2047904,78.1911257",26.2047904,78.1911257
+MP005,"Phool Bagh, Gwalior ",Gwalior,Madhya Pradesh,"26.2123673,78.1693418",26.2123673,78.1693418
+MP006,"Chhoti Gwaltoli, Indore ",Indore,Madhya Pradesh,"22.7164589,75.8711098",22.7164589,75.8711098
+MP007,"Marhatal, Jabalpur ",Jabalpur,Madhya Pradesh,"23.1666355,79.9340626",23.1666355,79.9340626
+MP008,"Gole Bazar, Katni ",Katni,Madhya Pradesh,"23.8325565,80.3952065",23.8325565,80.3952065
+MP009,"Sahilara, Maihar ",Maihar,Madhya Pradesh,"(24.2461982, 80.7277537)",24.2461982,80.7277537
+MP010,"Sector-D Industrial Area, Mandideep ",Mandideep,Madhya Pradesh,"23.0957937,77.4917573",23.0957937,77.4917573
+MP011,"Sector-2 Industrial Area, Pithampur",Pithampur,Madhya Pradesh,"22.6305388,74.5147509",22.6305388,74.5147509
+MP012,"Shasthri Nagar, Ratlam ",Ratlam,Madhya Pradesh,"22.6305388,74.5147509",22.6305388,74.5147509
+MP013,"Deen Dayal Nagar, Sagar ",Sagar,Madhya Pradesh,"23.8643501,78.8064284",23.8643501,78.8064284
+MP014,"Bandhavgar Colony, Satna ",Satna,Madhya Pradesh,"24.580247,80.8561505",24.580247,80.8561505
+MP015,"Vindhyachal STPS, Singrauli ",Singrauli,Madhya Pradesh,"24.0990515,82.6756303",24.0990515,82.6756303
+MP016,"Mahakaleshwar Temple, Ujjain ",Ujjain,Madhya Pradesh,"(23.1829722, 75.7681851)",23.1829722,75.7681851
+MH001,"More Chowk Waluj, Aurangabad ",Aurangabad,Maharashtra,"(19.8407794, 75.2471696)",19.8407794,75.2471696
+MH002,"Chandrapur, Chandrapur ",Chandrapur,Maharashtra,"(19.9508161, 79.2986673)",19.9508161,79.2986673
+MH003,"MIDC Khutala, Chandrapur ",Chandrapur,Maharashtra,"(19.9777956, 79.2363327)",19.9777956,79.2363327
+MH004,"Khadakpada, Kalyan ",Kalyan,Maharashtra,"(19.2363883, 73.1303624)",19.2363883,73.1303624
+MH005,"Bandra, Mumbai ",Mumbai,Maharashtra,"(19.0549792, 72.8402203)",19.0549792,72.8402203
+MH006,"Borivali East, Mumbai ",Mumbai,Maharashtra,"(19.2267228, 72.8619328)",19.2267228,72.8619328
+MH007,"Chhatrapati Shivaji Intl. Airport (T2), Mumbai",Mumbai,Maharashtra,"19.0965991,72.8653099",19.0965991,72.8653099
+MH008,"Colaba, Mumbai ",Mumbai,Maharashtra,"(18.915091, 72.8259691)",18.915091,72.8259691
+MH009,"Kurla, Mumbai ",Mumbai,Maharashtra,"(19.0655397, 72.8795636)",19.0655397,72.8795636
+MH010,"Powai, Mumbai ",Mumbai,Maharashtra,"(19.1187195, 72.9073476)",19.1187195,72.9073476
+MH011,"Sion, Mumbai ",Mumbai,Maharashtra,"(19.0465213, 72.8632834)",19.0465213,72.8632834
+MH012,"Vasai West, Mumbai ",Mumbai,Maharashtra,"19.3693345,72.806127",19.3693345,72.806127
+MH013,"Vile Parle West, Mumbai ",Mumbai,Maharashtra,"(19.103908, 72.840301)",19.103908,72.840301
+MH014,"Worli, Mumbai ",Mumbai,Maharashtra,"(19.0117388, 72.8178706)",19.0117388,72.8178706
+MH015,"Opp GPO Civil Lines, Nagpur ",Nagpur,Maharashtra,"21.1523552,79.0692636",21.1523552,79.0692636
+MH016,"Gangapur Road, Nashik ",Nashik,Maharashtra,"(20.0132845, 73.7417717)",20.0132845,73.7417717
+MH017,"Airoli, Navi Mumbai ",Navi Mumbai,Maharashtra,"(19.1585147, 72.9994019)",19.1585147,72.9994019
+MH018,"Mahape, Navi Mumbai ",Navi Mumbai,Maharashtra,"(19.1093012, 73.0235724)",19.1093012,73.0235724
+MH019,"Nerul, Navi Mumbai ",Navi Mumbai,Maharashtra,"(19.0335938, 73.018164)",19.0335938,73.018164
+MH020,"Karve Road, Pune ",Pune,Maharashtra,"(18.5012255, 73.8144408)",18.5012255,73.8144408
+MH021,"Solapur, Solapur ",Solapur,Maharashtra,"(17.6699734, 75.9008118)",17.6699734,75.9008118
+MH022,"Pimpleshwar Mandir, Thane ",Thane,Maharashtra,"19.1937243,73.0943389",19.1937243,73.0943389
+ML001,"Lumpyngngad, Shillong ",Shillong,Meghalaya,"(25.5589862,91.898564)",25.5589862,91.898564
+MZ001,"Sikulpuikawn, Aizawl ",Aizawl,Mizoram,"(23.7172540, 92.7183956)",23.717254,92.7183956
+OD001,"GM Office, Brajrajnagar ",Brajrajnagar,Odisha,"(21.8553897, 83.9245924)",21.8553897,83.9245924
+OD002,"Talcher Coalfields,Talcher ",Talcher,Odisha,"(20.9510480, 85.1759704)",20.951048,85.1759704
+PB001,"Golden Temple, Amritsar ",Amritsar,Punjab,"(31.6199787, 74.8765281)",31.6199787,74.8765281
+PB002,"Hardev Nagar, Bathinda ",Bathinda,Punjab,"(30.242291049170486, 74.91789693974081)",30.242291049170486,74.91789693974081
+PB003,"Civil Line, Jalandhar ",Jalandhar,Punjab,"(31.320142927776793, 75.58029910685997)",31.320142927776793,75.58029910685997
+PB004,"Kalal Majra, Khanna ",Khanna,Punjab,"(30.7715259, 76.1994007)",30.7715259,76.1994007
+PB005,"Punjab Agricultural University, Ludhiana ",Ludhiana,Punjab,"(30.9040094, 75.8004222)",30.9040094,75.8004222
+PB006,"RIMT University, Mandi Gobindgarh ",Gobindgarh,Punjab,"(30.650973472536712, 76.32923830869169)",30.650973472536712,76.32923830869169
+PB007,"Model Town, Patiala ",Patiala,Punjab,"(30.1968445, 74.948308)",30.1968445,74.948308
+PB008,"Ratanpura, Rupnagar ",Rupnagar,Punjab,"(31.029928385780398, 76.57356476980942)",31.029928385780398,76.57356476980942
+RJ001,"Moti Doongri, Alwar ",Alwar,Rajasthan,"(27.550733011146182, 76.60689553266285)",27.550733011146182,76.60689553266285
+RJ002,"Civil Lines, Ajmer ",Ajmer,Rajasthan,"(26.9096783, 75.7812494)",26.9096783,75.7812494
+RJ003,"RIICO Ind. Area III, Bhiwadi ",Bhiwandi,Rajasthan,"(28.201704913126257, 76.85957574217836)",28.201704913126257,76.85957574217836
+RJ004,"Adarsh Nagar, Jaipur ",Jaipur,Rajasthan,"(26.8986698, 75.8163567)",26.8986698,75.8163567
+RJ005,"Police Commissionerate, Jaipur ",Jaipur,Rajasthan,"(26.9160258, 75.8015394)",26.9160258,75.8015394
+RJ006,"Shastri Nagar, Jaipur ",Jaipur,Rajasthan,"(26.9332789, 75.7972295)",26.9332789,75.7972295
+RJ007,"Collectorate, Jodhpur ",Jodhpur,Rajasthan,"(26.29181626977882, 73.03674204783644)",26.29181626977882,73.03674204783644
+RJ008,"Shrinath Puram, Kota ",Kota,Rajasthan,"(25.13610454361436, 75.82262217050763)",25.13610454361436,75.82262217050763
+RJ009,"Indira Colony Vistar, Pali ",Pali,Rajasthan,"(25.77358990951027, 73.35026155227546)",25.77358990951027,73.35026155227546
+RJ010,"Ashok Nagar, Udaipur ",Udaipur,Rajasthan,"(24.5863748, 73.7042635)",24.5863748,73.7042635
+TN001,"Alandur Bus Depot, Chennai ",Chennai,Tamil Nadu,"(12.996712549504016, 80.19138035740644)",12.996712549504016,80.19138035740644
+TN002,"Manali Village, Chennai ",Chennai,Tamil Nadu,"(13.172910456538439, 80.27378924129324)",13.172910456538439,80.27378924129324
+TN003,"Manali, Chennai ",Chennai,Tamil Nadu,"(13.1672275, 80.2598107)",13.1672275,80.2598107
+TN004,"Velachery Res. Area, Chennai ",Chennai,Tamil Nadu,"(12.979330411435406, 80.22120785865624)",12.979330411435406,80.22120785865624
+TN005,"SIDCO Kurichi, Coimbatore ",Coimbatore,Tamil Nadu,"(10.937458652864096, 76.97833435198284)",10.937458652864096,76.97833435198284
+TG001,"Bollaram Industrial Area, Hyderabad ",Hyderabad,Telangana,"(17.543252501247157, 78.35308536728958)",17.543252501247157,78.35308536728958
+TG002,"Central University, Hyderabad ",Hyderabad,Telangana,"(17.4094797, 78.5060608)",17.4094797,78.5060608
+TG003,"ICRISAT Patancheru, Hyderabad ",Hyderabad,Telangana,"(17.496315, 78.2677697)",17.496315,78.2677697
+TG004,"IDA Pashamylaram, Hyderabad ",Hyderabad,Telangana,"(17.53079043964766, 78.18246389991747)",17.53079043964766,78.18246389991747
+TG005,"Sanathnagar, Hyderabad ",Hyderabad,Telangana,"(17.4569654, 78.4434781)",17.4569654,78.4434781
+TG006,"Zoo Park, Hyderabad ",Hyderabad,Telangana,"(17.3569337, 78.4513648)",17.3569337,78.4513648
+UP001,"Sanjay Palace, Agra ",Agra,Uttar Pradesh,"(27.199145494593427, 78.0058174980374)",27.199145494593427,78.0058174980374
+UP002,"New Collectorate, Baghpat ",Baghpat,Uttar Pradesh,"(28.975643072112206, 77.2180241665779)",28.975643072112206,77.2180241665779
+UP003,"Yamunapuram, Bulandshahr ",Bulandshahr,Uttar Pradesh,"(28.40814032232727, 77.83048745428533)",28.40814032232727,77.83048745428533
+UP004,"Indirapuram, Ghaziabad ",Ghaziabad,Uttar Pradesh,"(28.6423908, 77.3684892)",28.6423908,77.3684892
+UP005,"Loni, Ghaziabad ",Ghaziabad,Uttar Pradesh,"(28.7317295, 77.2900919)",28.7317295,77.2900919
+UP006,"Sanjay Nagar, Ghaziabad ",Ghaziabad,Uttar Pradesh,"(28.6313989, 77.4709115)",28.6313989,77.4709115
+UP007,"Vasundhara, Ghaziabad ",Ghaziabad,Uttar Pradesh,"(28.6619725, 77.3732972)",28.6619725,77.3732972
+UP008,"Knowledge Park - III, Greater Noida ",Greater Noida,Uttar Pradesh,"(28.478588, 77.4813689)",28.478588,77.4813689
+UP009,"Knowledge Park - V, Greater Noida ",Greater Noida,Uttar Pradesh,"(28.478588, 77.4813689)",28.478588,77.4813689
+UP010,"Anand Vihar, Hapur ",Hapur,Uttar Pradesh,"(28.72193007836998, 77.75378458263754)",28.72193007836998,77.75378458263754
+UP011,"Nehru Nagar, Kanpur ",Kanpur,Uttar Pradesh,"(26.4722201, 80.3241388)",26.4722201,80.3241388
+UP012,"Central School, Lucknow ",Lucknow,Uttar Pradesh,"(26.8824594, 81.0004318)",26.8824594,81.0004318
+UP013,"Gomti Nagar, Lucknow ",Lucknow,Uttar Pradesh,"(26.8611743, 81.0039196)",26.8611743,81.0039196
+UP014,"Lalbagh, Lucknow ",Lucknow,Uttar Pradesh,"(26.7908341, 80.8701804)",26.7908341,80.8701804
+UP015,"Nishant Ganj, Lucknow ",Lucknow,Uttar Pradesh,"(26.866348661658108, 80.95033171067419)",26.866348661658108,80.95033171067419
+UP016,"Talkatora District Industries Center, Lucknow ",Lucknow,Uttar Pradesh,"(26.83935629597923, 80.93808712065486)",26.83935629597923,80.93808712065486
+UP017,"Ganga Nagar, Meerut ",Meerut,Uttar Pradesh,"(28.9997246, 77.7593586)",28.9997246,77.7593586
+UP018,"Jai Bhim Nagar, Meerut ",Meerut,Uttar Pradesh,"(28.956187, 77.7604062)",28.956187,77.7604062
+UP019,"Pallavpuram Phase 2, Meerut",Meerut,Uttar Pradesh,"(29.0630475, 77.714386)",29.0630475,77.714386
+UP020,"Lajpat Nagar, Moradabad ",Moradabad,Uttar Pradesh,"(28.824947291398267, 78.78251772344811)",28.824947291398267,78.78251772344811
+UP021,"New Mandi, Muzaffarnagar ",Muzzaffarnagar,Uttar Pradesh,"(29.468332705159103, 77.71364508695686)",29.468332705159103,77.71364508695686
+UP022,"Sector - 125, Noida",Noida,Uttar Pradesh,"(28.5454077, 77.3297605)",28.5454077,77.3297605
+UP023,"Sector - 62, Noida",Noida,Uttar Pradesh,"(28.6211447, 77.3643493)",28.6211447,77.3643493
+UP024,"Sector-1, Noida",Noida,Uttar Pradesh,"(28.5902291, 77.3124577)",28.5902291,77.3124577
+UP025,"Sector-116, Noida",Noida,Uttar Pradesh,"(28.5648814, 77.4001488)",28.5648814,77.4001488
+UP026,"Ardhali Bazar, Varanasi ",Varanasi,Uttar Pradesh,"(25.347623860163026, 82.98088698756382)",25.347623860163026,82.98088698756382
+WB001,"Asansol Court Area, Asansol ",Asansol,West Bengal,"(23.688697706309135, 86.94786419042806)",23.688697706309135,86.94786419042806
+WB002,"Sidhu Kanhu Indoor Stadium, Durgapur ",Durgapur,West Bengal,"(23.54037862772901, 87.29144585259569)",23.54037862772901,87.29144585259569
+WB003,"Haldia, Haldia ",Haldia,West Bengal,"(22.028124, 88.0632655)",22.028124,88.0632655
+WB004,"Belur Math, Howrah ",Howrah,West Bengal,"(22.6323298, 88.3564507)",22.6323298,88.3564507
+WB005,"Ghusuri, Howrah ",Howrah,West Bengal,"(22.610537656200176, 88.35067968498835)",22.610537656200176,88.35067968498835
+WB006,"Padmapukur, Howrah ",Howrah,West Bengal,"(22.5682566, 88.3057431)",22.5682566,88.3057431
+WB007,"Ballygunge, Kolkata ",Kolkata,West Bengal,"(22.5280337, 88.3659084)",22.5280337,88.3659084
+WB008,"Bidhannagar, Kolkata ",Kolkata,West Bengal,"(22.5917378, 88.3909399)",22.5917378,88.3909399
+WB009,"Fort William, Kolkata ",Kolkata,West Bengal,"(22.5544966, 88.3380132)",22.5544966,88.3380132
+WB010,"Jadavpur, Kolkata ",Kolkata,West Bengal,"(22.495499, 88.3709006)",22.495499,88.3709006
+WB011,"Rabindra Bharati University, Kolkata ",Kolkata,West Bengal,"(22.58440948424348, 88.35935947838648)",22.58440948424348,88.35935947838648
+WB012,"Rabindra Sarobar, Kolkata ",Kolkata,West Bengal,"(22.5122563, 88.3635738)",22.5122563,88.3635738
+WB013,"Victoria, Kolkata ",Kolkata,West Bengal,"(22.5497837, 88.3391136)",22.5497837,88.3391136
+WB014,"Ward-32 Bapupara, Siliguri",Siliguri,West Bengal,"(26.68485360071396, 88.41807562310777)",26.68485360071396,88.41807562310777

@@ -1,0 +1,48 @@
+=== FACTORY PROXIMITY & AQI ANALYSIS (2018–2020) ===
+
+
+Pearson correlation (AQI vs log_closest_distance)
+r = -0.02627
+p-value = 0.42257224570079244
+
+Pearson correlation (AQI vs factory_density_50km)
+r = 0.3614
+p-value = 3.383057546638377e-30
+
+Pearson correlation (AQI vs inverse_distance_score_50km)
+r = 0.23015
+p-value = 1.0786934856537092e-12
+
+=== Hypothesis Test (Log Closest Distance) ===
+t-statistic = -0.8023202793840309
+p-value = 0.4225722457007919
+
+=== MULTIPLE LINEAR REGRESSION SUMMARY ===
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.161
+Model:                            OLS   Adj. R-squared:                  0.158
+Method:                 Least Squares   F-statistic:                     59.41
+Date:                Thu, 05 Mar 2026   Prob (F-statistic):           3.86e-35
+Time:                        15:17:54   Log-Likelihood:                -5546.8
+No. Observations:                 934   AIC:                         1.110e+04
+Df Residuals:                     930   BIC:                         1.112e+04
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+===============================================================================================
+                                  coef    std err          t      P>|t|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------
+const                         145.0393     13.953     10.395      0.000     117.656     172.423
+log_closest_distance          -12.0363      6.256     -1.924      0.055     -24.315       0.242
+factory_density_50km            2.0776      0.202     10.282      0.000       1.681       2.474
+inverse_distance_score_50km   -22.5746      4.186     -5.393      0.000     -30.789     -14.360
+==============================================================================
+Omnibus:                      393.640   Durbin-Watson:                   1.358
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2581.068
+Skew:                           1.797   Prob(JB):                         0.00
+Kurtosis:                      10.308   Cond. No.                         330.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
