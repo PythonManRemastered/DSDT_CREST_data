@@ -1,0 +1,446 @@
+
+==============================================================================
+NUCLEAR POWER PLANT DISTANCE VS AQI ANALYSIS
+==============================================================================
+Years used: 2018 to 2020
+Season definition: 1=Jan-Mar, 2=Apr-Jun, 3=Jul-Sep, 4=Oct-Dec
+Nuclear density radius: 100 km
+Nearest-few nuclear plants used: 3
+Unique stations used: 109
+Total station-season-year observations: 963
+Indian nuclear plants used: 9
+
+==============================================================================
+OVERALL CORRELATION ANALYSIS
+==============================================================================
+
+AQI_mean vs log_closest_nuclear_distance
+Observations = 963
+Pearson r = -0.1929523507985803
+Pearson p-value = 1.5721708180857123e-09
+Pearson r^2 = 0.037230609678698394
+Spearman rho = -0.19776764692488727
+Spearman p-value = 5.999526718121838e-10
+Formal t-statistic = -6.0960796231458865
+Formal t-test p-value = 1.5721708379601296e-09
+
+AQI_mean vs log_mean_distance_3_nearest
+Observations = 963
+Pearson r = -0.19535694878764007
+Pearson p-value = 9.747703218473901e-10
+Pearson r^2 = 0.03816433743961662
+Spearman rho = -0.2037852935696533
+Spearman p-value = 1.7388507791934792e-10
+Formal t-statistic = -6.175044897012613
+Formal t-test p-value = 9.747702645057643e-10
+
+AQI_mean vs nuclear_density_100km
+Observations = 963
+Pearson r = -0.239767116388755
+Pearson p-value = 4.6597483546619206e-14
+Pearson r^2 = 0.05748827010137879
+Spearman rho = -0.2667831156039568
+Spearman p-value = 3.7260019467279584e-17
+Formal t-statistic = -7.656105901067867
+Formal t-test p-value = 4.6629367034256575e-14
+
+AQI_mean vs inverse_distance_score_100km
+Observations = 963
+Pearson r = -0.23309278465392527
+Pearson p-value = 2.3867164215767967e-13
+Pearson r^2 = 0.05433224625772118
+Spearman rho = -0.26706062500757893
+Spearman p-value = 3.447603440507359e-17
+Formal t-statistic = -7.430554671128531
+Formal t-test p-value = 2.3869795029440866e-13
+
+==============================================================================
+SEASON-BY-SEASON CORRELATION ANALYSIS
+==============================================================================
+
+Season 1
+------------------------------------------------------------
+Observations = 249
+Unique stations = 109
+
+Season 1: AQI_mean vs log_closest_nuclear_distance
+Observations = 249
+Pearson r = -0.16494801745443438
+Pearson p-value = 0.009117279792803716
+Pearson r^2 = 0.02720784846214839
+Spearman rho = -0.2037044381602044
+Spearman p-value = 0.001228476404851453
+Formal t-statistic = -2.6283642268753438
+Formal t-test p-value = 0.009117279792803634
+
+Season 1: AQI_mean vs log_mean_distance_3_nearest
+Observations = 249
+Pearson r = -0.15763623224608028
+Pearson p-value = 0.012755185336187679
+Pearson r^2 = 0.02484918171674016
+Spearman rho = -0.1838183969163483
+Spearman p-value = 0.0036044193755127353
+Formal t-statistic = -2.5088149436147495
+Formal t-test p-value = 0.012755185336187802
+
+Season 1: AQI_mean vs nuclear_density_100km
+Observations = 249
+Pearson r = -0.2947131578446719
+Pearson p-value = 2.2163296895573624e-06
+Pearson r^2 = 0.08685584540677849
+Spearman rho = -0.3262738310649104
+Spearman p-value = 1.3832188044508402e-07
+Formal t-statistic = -4.847059276016272
+Formal t-test p-value = 2.216329689552765e-06
+
+Season 1: AQI_mean vs inverse_distance_score_100km
+Observations = 249
+Pearson r = -0.3004608019265052
+Pearson p-value = 1.3695496697545573e-06
+Pearson r^2 = 0.09027669349431859
+Spearman rho = -0.3302095951505863
+Spearman p-value = 9.565412055586048e-08
+Formal t-statistic = -4.950871314413485
+Formal t-test p-value = 1.3695496696719545e-06
+
+Season 2
+------------------------------------------------------------
+Observations = 265
+Unique stations = 109
+
+Season 2: AQI_mean vs log_closest_nuclear_distance
+Observations = 265
+Pearson r = -0.27696401277538835
+Pearson p-value = 4.712651005786594e-06
+Pearson r^2 = 0.07670906437264548
+Spearman rho = -0.21230024631550165
+Spearman p-value = 0.0005025257607681118
+Formal t-statistic = -4.674465201910666
+Formal t-test p-value = 4.712651005656099e-06
+
+Season 2: AQI_mean vs log_mean_distance_3_nearest
+Observations = 265
+Pearson r = -0.3092464068029049
+Pearson p-value = 2.794039256044076e-07
+Pearson r^2 = 0.09563334012050774
+Spearman rho = -0.2299380332844286
+Spearman p-value = 0.00015927347751627623
+Formal t-statistic = -5.273637388664935
+Formal t-test p-value = 2.794039255515912e-07
+
+Season 2: AQI_mean vs nuclear_density_100km
+Observations = 265
+Pearson r = -0.3262370358567869
+Pearson p-value = 5.4773340335711456e-08
+Pearson r^2 = 0.10643060356462249
+Spearman rho = -0.39190068261270633
+Spearman p-value = 3.6889200418465746e-11
+Formal t-statistic = -5.596892862487399
+Formal t-test p-value = 5.477334030778991e-08
+
+Season 2: AQI_mean vs inverse_distance_score_100km
+Observations = 265
+Pearson r = -0.310707386303323
+Pearson p-value = 2.438364046113012e-07
+Pearson r^2 = 0.09653907990344239
+Spearman rho = -0.3896545686606841
+Spearman p-value = 4.870865903816425e-11
+Formal t-statistic = -5.301207041046923
+Formal t-test p-value = 2.4383640462311007e-07
+
+Season 3
+------------------------------------------------------------
+Observations = 272
+Unique stations = 108
+
+Season 3: AQI_mean vs log_closest_nuclear_distance
+Observations = 272
+Pearson r = -0.27857123760721897
+Pearson p-value = 3.073544534833948e-06
+Pearson r^2 = 0.07760193442201765
+Spearman rho = -0.37001167994715467
+Spearman p-value = 2.990614558363567e-10
+Formal t-statistic = -4.766054058308061
+Formal t-test p-value = 3.0735445348817336e-06
+
+Season 3: AQI_mean vs log_mean_distance_3_nearest
+Observations = 272
+Pearson r = -0.2890143224945099
+Pearson p-value = 1.244253437269655e-06
+Pearson r^2 = 0.08352927860696059
+Spearman rho = -0.32896816659316774
+Spearman p-value = 2.761859434207811e-08
+Formal t-statistic = -4.960688419529548
+Formal t-test p-value = 1.2442534373935388e-06
+
+Season 3: AQI_mean vs nuclear_density_100km
+Observations = 272
+Pearson r = -0.152062682861468
+Pearson p-value = 0.01204063333472149
+Pearson r^2 = 0.0231230595190274
+Spearman rho = -0.1730309030549746
+Spearman p-value = 0.0042074254664015666
+Formal t-statistic = -2.5280438435163406
+Formal t-test p-value = 0.012040633334721385
+
+Season 3: AQI_mean vs inverse_distance_score_100km
+Observations = 272
+Pearson r = -0.1401670630602965
+Pearson p-value = 0.020751478209082855
+Pearson r^2 = 0.019646805566949137
+Spearman rho = -0.16812493349124422
+Spearman p-value = 0.005438701897495963
+Formal t-statistic = -2.326143867688512
+Formal t-test p-value = 0.020751478209082963
+
+Season 4
+------------------------------------------------------------
+Observations = 177
+Unique stations = 101
+
+Season 4: AQI_mean vs log_closest_nuclear_distance
+Observations = 177
+Pearson r = -0.262852808324106
+Pearson p-value = 0.00040837331557446
+Pearson r^2 = 0.06909159884386921
+Spearman rho = -0.25753624500970035
+Spearman p-value = 0.0005390117999218016
+Formal t-statistic = -3.6039451354295093
+Formal t-test p-value = 0.00040837331557441736
+
+Season 4: AQI_mean vs log_mean_distance_3_nearest
+Observations = 177
+Pearson r = -0.2378877654205552
+Pearson p-value = 0.0014307999964246342
+Pearson r^2 = 0.0565905889367851
+Spearman rho = -0.2606851390045164
+Spearman p-value = 0.0004576231141285537
+Formal t-statistic = -3.239970299072444
+Formal t-test p-value = 0.0014307999964247031
+
+Season 4: AQI_mean vs nuclear_density_100km
+Observations = 177
+Pearson r = -0.34309326507457194
+Pearson p-value = 2.94087580502191e-06
+Pearson r^2 = 0.11771298853953048
+Spearman rho = -0.33983558784937995
+Spearman p-value = 3.6981604441161025e-06
+Formal t-statistic = -4.831992754111815
+Formal t-test p-value = 2.940875805101939e-06
+
+Season 4: AQI_mean vs inverse_distance_score_100km
+Observations = 177
+Pearson r = -0.339864511605541
+Pearson p-value = 3.6906866884144076e-06
+Pearson r^2 = 0.1155078862488729
+Spearman rho = -0.34338195842767144
+Spearman p-value = 2.8814029807240165e-06
+Formal t-statistic = -4.780549947335185
+Formal t-test p-value = 3.6906866884844902e-06
+
+==============================================================================
+OVERALL REGRESSION WITHOUT SEASON FIXED EFFECTS
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.207
+Model:                            OLS   Adj. R-squared:                  0.204
+Method:                 Least Squares   F-statistic:                     67.01
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           5.03e-50
+Time:                        12:17:08   Log-Likelihood:                -5687.8
+No. Observations:                 963   AIC:                         1.139e+04
+Df Residuals:                     958   BIC:                         1.141e+04
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                          192.9006     56.843      3.394      0.001      81.490     304.311
+log_closest_nuclear_distance   -94.8007      9.471    -10.009      0.000    -113.364     -76.237
+log_mean_distance_3_nearest     81.4989     16.355      4.983      0.000      49.443     113.555
+nuclear_density_100km          -49.9928     23.708     -2.109      0.035     -96.460      -3.526
+inverse_distance_score_100km -6403.1784   1853.433     -3.455      0.001      -1e+04   -2770.516
+==============================================================================
+Omnibus:                      340.347   Durbin-Watson:                   1.415
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1705.393
+Skew:                           1.555   Prob(JB):                         0.00
+Kurtosis:                       8.730   Cond. No.                     7.21e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.21e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+==============================================================================
+OVERALL REGRESSION WITH SEASON FIXED EFFECTS
+==============================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.510
+Model:                            OLS   Adj. R-squared:                  0.507
+Method:                 Least Squares   F-statistic:                     161.3
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):          4.64e-157
+Time:                        12:17:08   Log-Likelihood:                -5455.8
+No. Observations:                 963   AIC:                         1.093e+04
+Df Residuals:                     955   BIC:                         1.097e+04
+Df Model:                           7                                         
+Covariance Type:                  HC3                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                          220.6797     54.095      4.079      0.000     114.656     326.704
+log_closest_nuclear_distance   -95.1741      9.031    -10.539      0.000    -112.874     -77.474
+log_mean_distance_3_nearest     84.0675     16.099      5.222      0.000      52.515     115.620
+nuclear_density_100km          -25.5015     23.794     -1.072      0.284     -72.136      21.133
+inverse_distance_score_100km -7817.3872   1908.891     -4.095      0.000   -1.16e+04   -4076.029
+season_2                       -63.8003      6.249    -10.210      0.000     -76.047     -51.553
+season_3                      -109.6978      5.959    -18.408      0.000    -121.378     -98.018
+season_4                        36.8803      8.693      4.243      0.000      19.843      53.918
+==============================================================================
+Omnibus:                      514.485   Durbin-Watson:                   0.876
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             7561.316
+Skew:                           2.097   Prob(JB):                         0.00
+Kurtosis:                      16.071   Cond. No.                     7.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+==============================================================================
+SEASON-SPECIFIC REGRESSIONS
+==============================================================================
+
+Season 1
+------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.269
+Model:                            OLS   Adj. R-squared:                  0.257
+Method:                 Least Squares   F-statistic:                     19.89
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           3.48e-14
+Time:                        12:17:08   Log-Likelihood:                -1442.3
+No. Observations:                 249   AIC:                             2895.
+Df Residuals:                     244   BIC:                             2912.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                           96.0397    131.066      0.733      0.464    -160.845     352.925
+log_closest_nuclear_distance  -110.6044     20.884     -5.296      0.000    -151.536     -69.673
+log_mean_distance_3_nearest    118.6267     38.393      3.090      0.002      43.378     193.876
+nuclear_density_100km           49.8971     52.522      0.950      0.342     -53.045     152.839
+inverse_distance_score_100km -1.385e+04   4154.600     -3.335      0.001    -2.2e+04   -5711.642
+==============================================================================
+Omnibus:                      184.466   Durbin-Watson:                   0.860
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3159.820
+Skew:                           2.711   Prob(JB):                         0.00
+Kurtosis:                      19.588   Cond. No.                     7.67e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.67e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Season 2
+------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.384
+Model:                            OLS   Adj. R-squared:                  0.375
+Method:                 Least Squares   F-statistic:                     51.30
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           8.32e-32
+Time:                        12:17:08   Log-Likelihood:                -1450.0
+No. Observations:                 265   AIC:                             2910.
+Df Residuals:                     260   BIC:                             2928.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                          299.9337     70.841      4.234      0.000     161.088     438.779
+log_closest_nuclear_distance   -78.1736     13.189     -5.927      0.000    -104.023     -52.324
+log_mean_distance_3_nearest     45.3212     22.066      2.054      0.040       2.072      88.571
+nuclear_density_100km          -98.1614     29.817     -3.292      0.001    -156.602     -39.721
+inverse_distance_score_100km -2573.8316   2696.514     -0.955      0.340   -7858.902    2711.239
+==============================================================================
+Omnibus:                       93.904   Durbin-Watson:                   1.648
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              442.628
+Skew:                           1.372   Prob(JB):                     7.67e-97
+Kurtosis:                       8.706   Cond. No.                     6.90e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 6.9e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Season 3
+------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.192
+Model:                            OLS   Adj. R-squared:                  0.180
+Method:                 Least Squares   F-statistic:                     38.57
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           1.81e-25
+Time:                        12:17:08   Log-Likelihood:                -1415.9
+No. Observations:                 272   AIC:                             2842.
+Df Residuals:                     267   BIC:                             2860.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                          194.6403     70.202      2.773      0.006      57.047     332.233
+log_closest_nuclear_distance   -36.9823     11.045     -3.348      0.001     -58.631     -15.334
+log_mean_distance_3_nearest     17.0433     20.645      0.826      0.409     -23.421      57.508
+nuclear_density_100km          -46.5761     27.719     -1.680      0.093    -100.904       7.752
+inverse_distance_score_100km  -681.5097   1953.180     -0.349      0.727   -4509.672    3146.653
+==============================================================================
+Omnibus:                      337.504   Durbin-Watson:                   1.138
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            24294.762
+Skew:                           5.458   Prob(JB):                         0.00
+Kurtosis:                      47.994   Cond. No.                     7.19e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.19e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Season 4
+------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.449
+Model:                            OLS   Adj. R-squared:                  0.436
+Method:                 Least Squares   F-statistic:                     27.38
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           1.37e-17
+Time:                        12:17:08   Log-Likelihood:                -1040.0
+No. Observations:                 177   AIC:                             2090.
+Df Residuals:                     172   BIC:                             2106.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+================================================================================================
+                                   coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------------------------
+const                          102.5359    183.046      0.560      0.575    -256.227     461.299
+log_closest_nuclear_distance  -184.8797     32.013     -5.775      0.000    -247.624    -122.135
+log_mean_distance_3_nearest    191.2466     56.580      3.380      0.001      80.351     302.142
+nuclear_density_100km           -2.8800     88.935     -0.032      0.974    -177.190     171.430
+inverse_distance_score_100km -1.692e+04   8173.392     -2.070      0.038   -3.29e+04    -901.381
+==============================================================================
+Omnibus:                       88.722   Durbin-Watson:                   1.005
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              633.541
+Skew:                           1.709   Prob(JB):                    2.68e-138
+Kurtosis:                      11.615   Cond. No.                     7.36e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 7.36e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
