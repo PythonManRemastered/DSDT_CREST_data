@@ -1,0 +1,553 @@
+
+==========================================================================================
+RESERVOIR PROXIMITY VS AQI ANALYSIS
+==========================================================================================
+Years used for AQI: 2018 to 2020
+AQI is segmented by season: 1=Jan-Mar, 2=Apr-Jun, 3=Jul-Sep, 4=Oct-Dec
+Reservoirs are treated as static across the analysis period.
+Reservoir density radius: 100 km
+Nearest reservoirs used: 3
+Unique stations used: 109
+Total station-season-year observations: 963
+Unique reservoirs used: 119
+
+==========================================================================================
+OVERALL CORRELATION ANALYSIS
+==========================================================================================
+
+AQI_mean vs log_closest_reservoir_distance
+Observations: 963
+Pearson r: 0.3214908040385002
+Pearson p-value: 1.3593230394733603e-24
+Pearson r^2: 0.10335633708132135
+Spearman rho: 0.3890855217605363
+Spearman p-value: 3.654230122456278e-36
+Formal t-statistic: 10.524956436714549
+Formal t-test p-value: 0.0
+
+AQI_mean vs log_mean_distance_3_nearest_reservoirs
+Observations: 963
+Pearson r: 0.31120394346419916
+Pearson p-value: 4.533395208947743e-23
+Pearson r^2: 0.09684789442766847
+Spearman rho: 0.3589306304237526
+Spearman p-value: 1.1792857500057209e-30
+Formal t-statistic: 10.15140923815424
+Formal t-test p-value: 0.0
+
+AQI_mean vs reservoir_density_100km
+Observations: 963
+Pearson r: -0.19966734075168935
+Pearson p-value: 4.0750171791550444e-10
+Pearson r^2: 0.039867046962851226
+Spearman rho: -0.29029080493126774
+Spearman p-value: 3.735964456461821e-20
+Formal t-statistic: -6.316886009254893
+Formal t-test p-value: 4.0750158802893566e-10
+
+AQI_mean vs inverse_distance_score_100km
+Observations: 963
+Pearson r: -0.20110760357340007
+Pearson p-value: 3.0315135048348536e-10
+Pearson r^2: 0.040444268215035835
+Spearman rho: -0.28947858556658085
+Spearman p-value: 4.795932006843507e-20
+Formal t-statistic: -6.364365059163971
+Formal t-test p-value: 3.0315128185520734e-10
+
+AQI_mean vs storage_weighted_inverse_score_100km
+Observations: 963
+Pearson r: -0.125301537824409
+Pearson p-value: 9.67056232173234e-05
+Pearson r^2: 0.015700475381161802
+Spearman rho: -0.2891257911464023
+Spearman p-value: 5.344145014749529e-20
+Formal t-statistic: -3.91520455501905
+Formal t-test p-value: 9.670562321728582e-05
+
+AQI_mean vs level_weighted_inverse_score_100km
+Observations: 963
+Pearson r: -0.2692499635326799
+Pearson p-value: 1.8623452589162482e-17
+Pearson r^2: 0.07249554286234945
+Spearman rho: -0.30824428913072155
+Spearman p-value: 1.2124538129653743e-22
+Formal t-statistic: -8.666811368553523
+Formal t-test p-value: 0.0
+
+==========================================================================================
+SEASON-BY-SEASON CORRELATION ANALYSIS
+==========================================================================================
+
+Season 1
+----------------------------------------------------------------------
+Observations: 249
+Unique stations: 109
+
+Season 1: AQI_mean vs log_closest_reservoir_distance
+Observations: 249
+Pearson r: 0.3890912494882215
+Pearson p-value: 2.000537637129018e-10
+Pearson r^2: 0.15139200042830542
+Spearman rho: 0.4798527715467367
+Spearman p-value: 9.593527855363615e-16
+Formal t-statistic: 6.638139574707855
+Formal t-test p-value: 2.0005375134246606e-10
+
+Season 1: AQI_mean vs log_mean_distance_3_nearest_reservoirs
+Observations: 249
+Pearson r: 0.3519881701724466
+Pearson p-value: 1.1290206398202366e-08
+Pearson r^2: 0.12389567194134722
+Spearman rho: 0.4050756751323299
+Spearman p-value: 2.9928121501537546e-11
+Formal t-statistic: 5.91015174162603
+Formal t-test p-value: 1.1290206325398344e-08
+
+Season 1: AQI_mean vs reservoir_density_100km
+Observations: 249
+Pearson r: -0.1908058061928406
+Pearson p-value: 0.0024983445849037942
+Pearson r^2: 0.03640685567689985
+Spearman rho: -0.3285554646307606
+Spearman p-value: 1.117642534151719e-07
+Formal t-statistic: -3.0548733652310944
+Formal t-test p-value: 0.0024983445849038333
+
+Season 1: AQI_mean vs inverse_distance_score_100km
+Observations: 249
+Pearson r: -0.2032028936367857
+Pearson p-value: 0.0012638859738448914
+Pearson r^2: 0.04129141598236284
+Spearman rho: -0.32894071946299824
+Spearman p-value: 1.0779397497856642e-07
+Formal t-statistic: -3.261632731347744
+Formal t-test p-value: 0.0012638859738449693
+
+Season 1: AQI_mean vs storage_weighted_inverse_score_100km
+Observations: 249
+Pearson r: -0.10800054097977124
+Pearson p-value: 0.08901392356028605
+Pearson r^2: 0.011664116851923248
+Spearman rho: -0.33299491374951146
+Spearman p-value: 7.344618733803154e-08
+Formal t-statistic: -1.7073482974248009
+Formal t-test p-value: 0.0890139235602867
+
+Season 1: AQI_mean vs level_weighted_inverse_score_100km
+Observations: 249
+Pearson r: -0.3036498300037685
+Pearson p-value: 1.0438284512882932e-06
+Pearson r^2: 0.09220321926131751
+Spearman rho: -0.35865602274544983
+Spearman p-value: 5.677179688067999e-09
+Formal t-statistic: -5.008725138925461
+Formal t-test p-value: 1.0438284512304108e-06
+
+Season 2
+----------------------------------------------------------------------
+Observations: 265
+Unique stations: 109
+
+Season 2: AQI_mean vs log_closest_reservoir_distance
+Observations: 265
+Pearson r: 0.4239111030484143
+Pearson p-value: 5.552097603869884e-13
+Pearson r^2: 0.17970062328772332
+Spearman rho: 0.5139830782993551
+Spearman p-value: 2.8623395718463453e-19
+Formal t-statistic: 7.590431672489874
+Formal t-test p-value: 5.553335569175033e-13
+
+Season 2: AQI_mean vs log_mean_distance_3_nearest_reservoirs
+Observations: 265
+Pearson r: 0.43198119087849346
+Pearson p-value: 1.7933509239520762e-13
+Pearson r^2: 0.1866077492728014
+Spearman rho: 0.4947221583626833
+Spearman p-value: 9.145333768921487e-18
+Formal t-statistic: 7.767704511403568
+Formal t-test p-value: 1.794120407794253e-13
+
+Season 2: AQI_mean vs reservoir_density_100km
+Observations: 265
+Pearson r: -0.322479852425825
+Pearson p-value: 7.922267297701262e-08
+Pearson r^2: 0.10399325522058186
+Spearman rho: -0.4479995863416263
+Spearman p-value: 1.738013336515789e-14
+Formal t-statistic: -5.524905081751727
+Formal t-test p-value: 7.922267308835274e-08
+
+Season 2: AQI_mean vs inverse_distance_score_100km
+Observations: 265
+Pearson r: -0.3140329319260463
+Pearson p-value: 1.7836174897099477e-07
+Pearson r^2: 0.09861668233406884
+Spearman rho: -0.4431067071252804
+Spearman p-value: 3.5919824986593776e-14
+Formal t-statistic: -5.36411784225357
+Formal t-test p-value: 1.7836174892593704e-07
+
+Season 2: AQI_mean vs storage_weighted_inverse_score_100km
+Observations: 265
+Pearson r: -0.18200182195388864
+Pearson p-value: 0.0029428574187788793
+Pearson r^2: 0.033124663194534984
+Spearman rho: -0.4352846224372877
+Spearman p-value: 1.1193641504230524e-13
+Formal t-statistic: -3.0017074883037544
+Formal t-test p-value: 0.002942857418778866
+
+Season 2: AQI_mean vs level_weighted_inverse_score_100km
+Observations: 265
+Pearson r: -0.3804644501393849
+Pearson p-value: 1.4861541800011441e-10
+Pearson r^2: 0.1447531978198645
+Spearman rho: -0.4638383487674926
+Spearman p-value: 1.5280298043388172e-15
+Formal t-statistic: -6.671849299536342
+Formal t-test p-value: 1.4861534225474315e-10
+
+Season 3
+----------------------------------------------------------------------
+Observations: 272
+Unique stations: 108
+
+Season 3: AQI_mean vs log_closest_reservoir_distance
+Observations: 272
+Pearson r: 0.22985499582080077
+Pearson p-value: 0.00013090852808562574
+Pearson r^2: 0.052833319103780335
+Spearman rho: 0.4470118013763085
+Spearman p-value: 9.114496461374655e-15
+Formal t-statistic: 3.880812168904699
+Formal t-test p-value: 0.00013090852808561593
+
+Season 3: AQI_mean vs log_mean_distance_3_nearest_reservoirs
+Observations: 272
+Pearson r: 0.2137512689932398
+Pearson p-value: 0.0003849982548405242
+Pearson r^2: 0.04568960499622035
+Spearman rho: 0.44152026945837014
+Spearman p-value: 2.09578070313523e-14
+Formal t-statistic: 3.595387933509962
+Formal t-test p-value: 0.0003849982548405073
+
+Season 3: AQI_mean vs reservoir_density_100km
+Observations: 272
+Pearson r: -0.1112804395132543
+Pearson p-value: 0.06687286764628704
+Pearson r^2: 0.012383336218263048
+Spearman rho: -0.3124605894664426
+Spearman p-value: 1.4262679789106307e-07
+Formal t-statistic: -1.839952069438735
+Formal t-test p-value: 0.0668728676462862
+
+Season 3: AQI_mean vs inverse_distance_score_100km
+Observations: 272
+Pearson r: -0.12204764608834803
+Pearson p-value: 0.04431323031726913
+Pearson r^2: 0.014895627915706654
+Spearman rho: -0.31233332329759517
+Spearman p-value: 1.443885218733386e-07
+Formal t-statistic: -2.0205526269081213
+Formal t-test p-value: 0.04431323031726864
+
+Season 3: AQI_mean vs storage_weighted_inverse_score_100km
+Observations: 272
+Pearson r: -0.10973873221751008
+Pearson p-value: 0.07076483052142074
+Pearson r^2: 0.012042589348706386
+Spearman rho: -0.317104729079492
+Spearman p-value: 9.076717519067603e-08
+Formal t-statistic: -1.8141479779744287
+Formal t-test p-value: 0.07076483052142102
+
+Season 3: AQI_mean vs level_weighted_inverse_score_100km
+Observations: 272
+Pearson r: -0.2047940711790063
+Pearson p-value: 0.0006786006734301697
+Pearson r^2: 0.041940611590071904
+Spearman rho: -0.3286536952523108
+Spearman p-value: 2.852244914923765e-08
+Formal t-statistic: -3.437977626975681
+Formal t-test p-value: 0.0006786006734302852
+
+Season 4
+----------------------------------------------------------------------
+Observations: 177
+Unique stations: 101
+
+Season 4: AQI_mean vs log_closest_reservoir_distance
+Observations: 177
+Pearson r: 0.49997728960496485
+Pearson p-value: 1.389264580009584e-12
+Pearson r^2: 0.2499772901207269
+Spearman rho: 0.5142695761554306
+Spearman p-value: 2.451327668731604e-13
+Formal t-statistic: 7.63716362607801
+Formal t-test p-value: 1.3893330930159209e-12
+
+Season 4: AQI_mean vs log_mean_distance_3_nearest_reservoirs
+Observations: 177
+Pearson r: 0.4870793470316725
+Pearson p-value: 6.2125084907567705e-12
+Pearson r^2: 0.23724629030480043
+Spearman rho: 0.467886692240037
+Spearman p-value: 5.155380985181988e-11
+Formal t-statistic: 7.37779485590023
+Formal t-test p-value: 6.212586001197451e-12
+
+Season 4: AQI_mean vs reservoir_density_100km
+Observations: 177
+Pearson r: -0.2760229153552889
+Pearson p-value: 0.0002002230976988353
+Pearson r^2: 0.07618864980123298
+Spearman rho: -0.35068332868929813
+Spearman p-value: 1.707034814871299e-06
+Formal t-statistic: -3.7990281887330664
+Formal t-test p-value: 0.0002002230976989594
+
+Season 4: AQI_mean vs inverse_distance_score_100km
+Observations: 177
+Pearson r: -0.2856016092468404
+Pearson p-value: 0.00011652114163495548
+Pearson r^2: 0.08156827920438492
+Spearman rho: -0.35442315738589747
+Spearman p-value: 1.2988496008141872e-06
+Formal t-statistic: -3.9423596124465417
+Formal t-test p-value: 0.00011652114163496208
+
+Season 4: AQI_mean vs storage_weighted_inverse_score_100km
+Observations: 177
+Pearson r: -0.22093095021630046
+Pearson p-value: 0.0031259419756343976
+Pearson r^2: 0.048810484763477435
+Spearman rho: -0.3610530433741464
+Spearman p-value: 7.932293302667624e-07
+Formal t-statistic: -2.996691648690729
+Formal t-test p-value: 0.0031259419756344275
+
+Season 4: AQI_mean vs level_weighted_inverse_score_100km
+Observations: 177
+Pearson r: -0.36590094466348794
+Pearson p-value: 5.491855520738152e-07
+Pearson r^2: 0.13388350130563287
+Spearman rho: -0.370868288221295
+Spearman p-value: 3.7442788182038147e-07
+Formal t-statistic: -5.2010903638523605
+Formal t-test p-value: 5.491855521455591e-07
+
+==========================================================================================
+OVERALL REGRESSION WITHOUT SEASON FIXED EFFECTS
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.175
+Model:                            OLS   Adj. R-squared:                  0.170
+Method:                 Least Squares   F-statistic:                     54.40
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           8.59e-50
+Time:                        15:01:25   Log-Likelihood:                -5707.2
+No. Observations:                 963   AIC:                         1.143e+04
+Df Residuals:                     957   BIC:                         1.146e+04
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+const                                   -326.3426     66.326     -4.920      0.000    -456.340    -196.345
+log_closest_reservoir_distance            37.8401     22.982      1.646      0.100      -7.204      82.884
+log_mean_distance_3_nearest_reservoirs    57.1646     27.497      2.079      0.038       3.271     111.058
+reservoir_density_100km                   71.4796     16.479      4.338      0.000      39.181     103.778
+storage_weighted_inverse_score_100km     748.8722    368.592      2.032      0.042      26.446    1471.299
+level_weighted_inverse_score_100km       -10.9198      2.642     -4.134      0.000     -16.097      -5.742
+==============================================================================
+Omnibus:                      189.793   Durbin-Watson:                   1.364
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              477.986
+Skew:                           1.035   Prob(JB):                    1.61e-104
+Kurtosis:                       5.762   Cond. No.                     1.16e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.16e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+==========================================================================================
+OVERALL REGRESSION WITH SEASON FIXED EFFECTS
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.481
+Model:                            OLS   Adj. R-squared:                  0.477
+Method:                 Least Squares   F-statistic:                     93.62
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):          1.43e-114
+Time:                        15:01:25   Log-Likelihood:                -5484.0
+No. Observations:                 963   AIC:                         1.099e+04
+Df Residuals:                     954   BIC:                         1.103e+04
+Df Model:                           8                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+const                                   -297.5195     64.707     -4.598      0.000    -424.344    -170.695
+log_closest_reservoir_distance            40.7933     21.732      1.877      0.061      -1.800      83.387
+log_mean_distance_3_nearest_reservoirs    56.7472     26.482      2.143      0.032       4.844     108.650
+reservoir_density_100km                   71.0195     15.558      4.565      0.000      40.526     101.513
+storage_weighted_inverse_score_100km     715.7941    339.124      2.111      0.035      51.122    1380.466
+level_weighted_inverse_score_100km       -10.5048      2.489     -4.220      0.000     -15.384      -5.626
+season_2                                 -64.1987      6.422     -9.996      0.000     -76.786     -51.612
+season_3                                -110.6097      5.895    -18.762      0.000    -122.164     -99.055
+season_4                                  36.5838      8.935      4.094      0.000      19.071      54.097
+==============================================================================
+Omnibus:                      253.316   Durbin-Watson:                   0.849
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1740.963
+Skew:                           1.018   Prob(JB):                         0.00
+Kurtosis:                       9.265   Cond. No.                     1.16e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.16e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+==========================================================================================
+SEASON-SPECIFIC REGRESSIONS
+==========================================================================================
+
+Season 1
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.313
+Model:                            OLS   Adj. R-squared:                  0.298
+Method:                 Least Squares   F-statistic:                     18.27
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           2.19e-15
+Time:                        15:01:25   Log-Likelihood:                -1434.7
+No. Observations:                 249   AIC:                             2881.
+Df Residuals:                     243   BIC:                             2902.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+const                                   -389.9927    149.003     -2.617      0.009    -682.034     -97.951
+log_closest_reservoir_distance            91.5587     55.318      1.655      0.098     -16.864     199.981
+log_mean_distance_3_nearest_reservoirs    25.7154     67.116      0.383      0.702    -105.830     157.261
+reservoir_density_100km                   91.5237     38.531      2.375      0.018      16.004     167.044
+storage_weighted_inverse_score_100km    1637.4089    819.271      1.999      0.046      31.667    3243.151
+level_weighted_inverse_score_100km       -13.6406      6.124     -2.227      0.026     -25.644      -1.638
+==============================================================================
+Omnibus:                       94.000   Durbin-Watson:                   0.955
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              735.420
+Skew:                           1.268   Prob(JB):                    2.02e-160
+Kurtosis:                      11.029   Cond. No.                     1.04e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.04e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Season 2
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.254
+Model:                            OLS   Adj. R-squared:                  0.240
+Method:                 Least Squares   F-statistic:                     27.63
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           2.13e-22
+Time:                        15:01:25   Log-Likelihood:                -1475.4
+No. Observations:                 265   AIC:                             2963.
+Df Residuals:                     259   BIC:                             2984.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+const                                   -282.7758    103.228     -2.739      0.006    -485.100     -80.452
+log_closest_reservoir_distance            25.4270     42.686      0.596      0.551     -58.235     109.089
+log_mean_distance_3_nearest_reservoirs    56.8595     52.774      1.077      0.281     -46.575     160.294
+reservoir_density_100km                   47.5292     24.638      1.929      0.054      -0.761      95.819
+storage_weighted_inverse_score_100km     589.7690    542.758      1.087      0.277    -474.018    1653.556
+level_weighted_inverse_score_100km        -7.6580      3.831     -1.999      0.046     -15.167      -0.149
+==============================================================================
+Omnibus:                       41.188   Durbin-Watson:                   1.444
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               85.566
+Skew:                           0.784   Prob(JB):                     2.63e-19
+Kurtosis:                       5.300   Cond. No.                     1.22e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.22e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Season 3
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.169
+Model:                            OLS   Adj. R-squared:                  0.153
+Method:                 Least Squares   F-statistic:                     9.296
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           3.56e-08
+Time:                        15:01:25   Log-Likelihood:                -1419.7
+No. Observations:                 272   AIC:                             2851.
+Df Residuals:                     266   BIC:                             2873.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+const                                    -82.7846     85.325     -0.970      0.332    -250.018      84.448
+log_closest_reservoir_distance            -1.4831     33.674     -0.044      0.965     -67.483      64.517
+log_mean_distance_3_nearest_reservoirs    34.9157     38.811      0.900      0.368     -41.152     110.984
+reservoir_density_100km                   50.4334     27.602      1.827      0.068      -3.666     104.532
+storage_weighted_inverse_score_100km    -108.4859    616.939     -0.176      0.860   -1317.664    1100.692
+level_weighted_inverse_score_100km        -7.6405      4.403     -1.735      0.083     -16.271       0.990
+==============================================================================
+Omnibus:                      232.784   Durbin-Watson:                   1.267
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             6392.800
+Skew:                           3.224   Prob(JB):                         0.00
+Kurtosis:                      25.858   Cond. No.                     1.28e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.28e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.
+
+Season 4
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.376
+Model:                            OLS   Adj. R-squared:                  0.358
+Method:                 Least Squares   F-statistic:                     16.95
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           1.35e-13
+Time:                        15:01:25   Log-Likelihood:                -1051.0
+No. Observations:                 177   AIC:                             2114.
+Df Residuals:                     171   BIC:                             2133.
+Df Model:                           5                                         
+Covariance Type:                  HC3                                         
+==========================================================================================================
+                                             coef    std err          z      P>|z|      [0.025      0.975]
+----------------------------------------------------------------------------------------------------------
+const                                   -768.2080    209.840     -3.661      0.000   -1179.487    -356.929
+log_closest_reservoir_distance            31.7076     61.505      0.516      0.606     -88.841     152.256
+log_mean_distance_3_nearest_reservoirs   162.1095     75.289      2.153      0.031      14.545     309.674
+reservoir_density_100km                  120.3093     47.568      2.529      0.011      27.078     213.540
+storage_weighted_inverse_score_100km     522.8615    935.446      0.559      0.576   -1310.579    2356.302
+level_weighted_inverse_score_100km       -16.4404      7.658     -2.147      0.032     -31.449      -1.432
+==============================================================================
+Omnibus:                       17.122   Durbin-Watson:                   0.966
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               60.412
+Skew:                           0.106   Prob(JB):                     7.62e-14
+Kurtosis:                       5.854   Cond. No.                     1.13e+03
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+[2] The condition number is large, 1.13e+03. This might indicate that there are
+strong multicollinearity or other numerical problems.

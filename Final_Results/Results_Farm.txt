@@ -1,0 +1,489 @@
+
+==========================================================================================
+FARM LOCATIONS VS AQI ANALYSIS
+==========================================================================================
+Years used for AQI: 2018 to 2020
+AQI is segmented by season: 1=Jan-Mar, 2=Apr-Jun, 3=Jul-Sep, 4=Oct-Dec
+Farms are treated as a static geographic layer.
+Farm density radius: 100 km
+Nearest farms used: 3
+Unique stations used: 109
+Total station-season-year observations: 963
+Total farm locations used: 730
+No explicit farm size column was detected.
+True size-weighted influence could not be computed from the provided fields.
+Equal-weight distance and density metrics were used instead.
+Crop-weighted influence was included only as a descriptive supplementary metric, not a true size proxy.
+
+==========================================================================================
+OVERALL CORRELATION ANALYSIS
+==========================================================================================
+
+AQI_mean vs log_closest_farm_distance
+Observations: 963
+Pearson r: -0.24853798788684228
+Pearson p-value: 5.044844520718889e-15
+Pearson r^2: 0.06177113142284016
+Spearman rho: -0.26460231216493385
+Spearman p-value: 6.8376059287535e-17
+Formal t-statistic: -7.954265373923817
+Formal t-test p-value: 5.10702591327572e-15
+
+AQI_mean vs log_mean_distance_3_nearest_farms
+Observations: 963
+Pearson r: -0.4072890958594621
+Pearson p-value: 8.862003229441532e-40
+Pearson r^2: 0.1658844076060181
+Spearman rho: -0.4443677938112624
+Spearman p-value: 7.185231213728373e-48
+Formal t-statistic: -13.824561253186323
+Formal t-test p-value: 0.0
+
+AQI_mean vs farm_density_100km
+Observations: 963
+Pearson r: 0.4800885781938519
+Pearson p-value: 1.1348832326095974e-56
+Pearson r^2: 0.23048504291219427
+Spearman rho: 0.5043462311268881
+Spearman p-value: 2.852797156527354e-63
+Formal t-statistic: 16.96580749024445
+Formal t-test p-value: 0.0
+
+AQI_mean vs inverse_distance_score_100km
+Observations: 963
+Pearson r: 0.4552864739581071
+Pearson p-value: 1.8880966503802297e-50
+Pearson r^2: 0.20728577336920614
+Spearman rho: 0.5182352091152114
+Spearman p-value: 2.6938999407198162e-67
+Formal t-statistic: 15.852147903332574
+Formal t-test p-value: 0.0
+
+AQI_mean vs crop_weighted_inverse_score_100km
+Observations: 963
+Pearson r: 0.47721808292108786
+Pearson p-value: 6.329912455262209e-56
+Pearson r^2: 0.2277370986668783
+Spearman rho: 0.5464388540152373
+Spearman p-value: 4.568583012545588e-76
+Formal t-statistic: 16.83433632310651
+Formal t-test p-value: 0.0
+
+==========================================================================================
+SEASON-BY-SEASON CORRELATION ANALYSIS
+==========================================================================================
+
+Season 1
+----------------------------------------------------------------------
+Observations: 249
+Unique stations: 109
+
+Season 1: AQI_mean vs log_closest_farm_distance
+Observations: 249
+Pearson r: -0.33447931270157183
+Pearson p-value: 6.373178601203328e-08
+Pearson r^2: 0.11187641062531586
+Spearman rho: -0.35777694913184954
+Spearman p-value: 6.221445798068548e-09
+Formal t-statistic: -5.578032444929123
+Formal t-test p-value: 6.373178607077534e-08
+
+Season 1: AQI_mean vs log_mean_distance_3_nearest_farms
+Observations: 249
+Pearson r: -0.5262611585621273
+Pearson p-value: 3.8613459042587335e-19
+Pearson r^2: 0.2769508070111525
+Spearman rho: -0.6068763952483547
+Spearman p-value: 1.9155403058188594e-26
+Formal t-statistic: -9.726707840872123
+Formal t-test p-value: 0.0
+
+Season 1: AQI_mean vs farm_density_100km
+Observations: 249
+Pearson r: 0.5488487155107301
+Pearson p-value: 5.453129836759459e-21
+Pearson r^2: 0.30123491251777834
+Spearman rho: 0.6282445034523558
+Spearman p-value: 9.518092864055592e-29
+Formal t-statistic: 10.318950513514272
+Formal t-test p-value: 0.0
+
+Season 1: AQI_mean vs inverse_distance_score_100km
+Observations: 249
+Pearson r: 0.5404611409268197
+Pearson p-value: 2.753734670300066e-20
+Pearson r^2: 0.2920982448519197
+Spearman rho: 0.6463068345835894
+Spearman p-value: 7.705302659261757e-31
+Formal t-statistic: 10.09546798274668
+Formal t-test p-value: 0.0
+
+Season 1: AQI_mean vs crop_weighted_inverse_score_100km
+Observations: 249
+Pearson r: 0.5560259257896129
+Pearson p-value: 1.3151821275948333e-21
+Pearson r^2: 0.3091648301501961
+Spearman rho: 0.6692389024326386
+Spearman p-value: 1.0435478427978127e-33
+Formal t-statistic: 10.513717390995481
+Formal t-test p-value: 0.0
+
+Season 2
+----------------------------------------------------------------------
+Observations: 265
+Unique stations: 109
+
+Season 2: AQI_mean vs log_closest_farm_distance
+Observations: 265
+Pearson r: -0.2942307529565464
+Pearson p-value: 1.0856852096726615e-06
+Pearson r^2: 0.08657173598537622
+Spearman rho: -0.3190065681958111
+Spearman p-value: 1.1094033794354248e-07
+Formal t-statistic: -4.992622326588054
+Formal t-test p-value: 1.0856852097340663e-06
+
+Season 2: AQI_mean vs log_mean_distance_3_nearest_farms
+Observations: 265
+Pearson r: -0.4955219761769828
+Pearson p-value: 7.954213652494456e-18
+Pearson r^2: 0.2455420288743423
+Spearman rho: -0.5193915869209189
+Spearman p-value: 1.0395806054429703e-19
+Formal t-statistic: -9.251736787502322
+Formal t-test p-value: 0.0
+
+Season 2: AQI_mean vs farm_density_100km
+Observations: 265
+Pearson r: 0.6349357774817882
+Pearson p-value: 2.5901627522271895e-31
+Pearson r^2: 0.40314344152640286
+Spearman rho: 0.6622350053665506
+Spearman p-value: 7.986239862203518e-35
+Formal t-statistic: 13.328236442783536
+Formal t-test p-value: 0.0
+
+Season 2: AQI_mean vs inverse_distance_score_100km
+Observations: 265
+Pearson r: 0.5904010451751238
+Pearson p-value: 2.7586938190443904e-26
+Pearson r^2: 0.3485733941438786
+Spearman rho: 0.6486560392520356
+Spearman p-value: 4.9400627655166135e-33
+Formal t-statistic: 11.862937593967592
+Formal t-test p-value: 0.0
+
+Season 2: AQI_mean vs crop_weighted_inverse_score_100km
+Observations: 265
+Pearson r: 0.6327669220424762
+Pearson p-value: 4.7562206346656455e-31
+Pearson r^2: 0.4003939776311092
+Spearman rho: 0.7061331315901753
+Spearman p-value: 2.585448039094894e-41
+Formal t-statistic: 13.252220379899615
+Formal t-test p-value: 0.0
+
+Season 3
+----------------------------------------------------------------------
+Observations: 272
+Unique stations: 108
+
+Season 3: AQI_mean vs log_closest_farm_distance
+Observations: 272
+Pearson r: -0.1311629247267178
+Pearson p-value: 0.030573248884923673
+Pearson r^2: 0.017203712822866642
+Spearman rho: -0.22186107998215832
+Spearman p-value: 0.00022580602020029288
+Formal t-statistic: -2.1740084145709733
+Formal t-test p-value: 0.030573248884923965
+
+Season 3: AQI_mean vs log_mean_distance_3_nearest_farms
+Observations: 272
+Pearson r: -0.26739533790121706
+Pearson p-value: 7.771922464909713e-06
+Pearson r^2: 0.07150026673130605
+Spearman rho: -0.42776475279233706
+Spearman p-value: 1.5812896068306112e-13
+Formal t-statistic: -4.559789785710647
+Formal t-test p-value: 7.771922464927528e-06
+
+Season 3: AQI_mean vs farm_density_100km
+Observations: 272
+Pearson r: 0.3859816528971646
+Pearson p-value: 4.2888721767211186e-11
+Pearson r^2: 0.14898183637322723
+Spearman rho: 0.5413278352484013
+Spearman p-value: 4.14261685816843e-22
+Formal t-statistic: 6.875101732411872
+Formal t-test p-value: 4.28888036196895e-11
+
+Season 3: AQI_mean vs inverse_distance_score_100km
+Observations: 272
+Pearson r: 0.3379054288504144
+Pearson p-value: 1.089136398938799e-08
+Pearson r^2: 0.11418007884658248
+Spearman rho: 0.5489872561087428
+Spearman p-value: 8.215172644782568e-23
+Formal t-statistic: 5.89935226739753
+Formal t-test p-value: 1.0891364032872275e-08
+
+Season 3: AQI_mean vs crop_weighted_inverse_score_100km
+Observations: 272
+Pearson r: 0.3526488385050657
+Pearson p-value: 2.196795571772997e-09
+Pearson r^2: 0.12436120329897189
+Spearman rho: 0.5735886750380701
+Spearman p-value: 3.3982163597768467e-25
+Formal t-statistic: 6.19244049637079
+Formal t-test p-value: 2.196795634290538e-09
+
+Season 4
+----------------------------------------------------------------------
+Observations: 177
+Unique stations: 101
+
+Season 4: AQI_mean vs log_closest_farm_distance
+Observations: 177
+Pearson r: -0.42227014968126286
+Pearson p-value: 4.790776932180515e-09
+Pearson r^2: 0.17831207931183615
+Spearman rho: -0.4378174598249346
+Spearman p-value: 1.1016798046089017e-09
+Formal t-statistic: -6.1624861357609735
+Formal t-test p-value: 4.7907768863098e-09
+
+Season 4: AQI_mean vs log_mean_distance_3_nearest_farms
+Observations: 177
+Pearson r: -0.6602386971409063
+Pearson p-value: 1.5835030251208356e-23
+Pearson r^2: 0.43591513720232145
+Spearman rho: -0.695412137919075
+Spearman p-value: 6.62850716822766e-27
+Formal t-statistic: -11.629144759444687
+Formal t-test p-value: 0.0
+
+Season 4: AQI_mean vs farm_density_100km
+Observations: 177
+Pearson r: 0.7299285315334648
+Pearson p-value: 9.91391700903457e-31
+Pearson r^2: 0.5327956611466004
+Spearman rho: 0.6956570016847352
+Spearman p-value: 6.254497991126749e-27
+Formal t-statistic: 14.126869406120436
+Formal t-test p-value: 0.0
+
+Season 4: AQI_mean vs inverse_distance_score_100km
+Observations: 177
+Pearson r: 0.7078839295215623
+Pearson p-value: 3.188866749613001e-28
+Pearson r^2: 0.5010996576748882
+Spearman rho: 0.7530163382352388
+Spearman p-value: 1.2327748698088056e-33
+Formal t-statistic: 13.257882826822424
+Formal t-test p-value: 0.0
+
+Season 4: AQI_mean vs crop_weighted_inverse_score_100km
+Observations: 177
+Pearson r: 0.7337134437627941
+Pearson p-value: 3.4735084512221635e-31
+Pearson r^2: 0.5383354175582589
+Spearman rho: 0.7714141030805524
+Spearman p-value: 3.433151018769155e-36
+Formal t-statistic: 14.285065038238342
+Formal t-test p-value: 0.0
+
+==========================================================================================
+OVERALL REGRESSION WITHOUT SEASON FIXED EFFECTS
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.245
+Model:                            OLS   Adj. R-squared:                  0.242
+Method:                 Least Squares   F-statistic:                     110.9
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           1.05e-77
+Time:                        15:18:40   Log-Likelihood:                -5664.2
+No. Observations:                 963   AIC:                         1.134e+04
+Df Residuals:                     958   BIC:                         1.136e+04
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                                91.1842     40.581      2.247      0.025      11.647     170.722
+log_closest_farm_distance           -19.4945      5.897     -3.306      0.001     -31.053      -7.936
+log_mean_distance_3_nearest_farms     9.6235      8.599      1.119      0.263      -7.229      26.477
+farm_density_100km                    5.1540      0.675      7.633      0.000       3.831       6.477
+inverse_distance_score_100km         -2.4353     25.123     -0.097      0.923     -51.676      46.806
+==============================================================================
+Omnibus:                      396.469   Durbin-Watson:                   1.479
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2878.559
+Skew:                           1.712   Prob(JB):                         0.00
+Kurtosis:                      10.747   Cond. No.                         300.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+==========================================================================================
+OVERALL REGRESSION WITH SEASON FIXED EFFECTS
+==========================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.547
+Model:                            OLS   Adj. R-squared:                  0.544
+Method:                 Least Squares   F-statistic:                     231.3
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):          1.18e-200
+Time:                        15:18:40   Log-Likelihood:                -5418.3
+No. Observations:                 963   AIC:                         1.085e+04
+Df Residuals:                     955   BIC:                         1.089e+04
+Df Model:                           7                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                               148.1766     37.111      3.993      0.000      75.440     220.913
+log_closest_farm_distance           -19.5908      5.364     -3.652      0.000     -30.105      -9.077
+log_mean_distance_3_nearest_farms     5.8423      7.267      0.804      0.421      -8.400      20.084
+farm_density_100km                    4.9729      0.490     10.139      0.000       4.012       5.934
+inverse_distance_score_100km         -5.7033     21.009     -0.271      0.786     -46.881      35.474
+season_2                            -62.8560      6.008    -10.462      0.000     -74.632     -51.080
+season_3                           -109.0587      5.910    -18.452      0.000    -120.643     -97.475
+season_4                             37.6542      8.086      4.657      0.000      21.806      53.502
+==============================================================================
+Omnibus:                      644.874   Durbin-Watson:                   0.938
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            14417.544
+Skew:                           2.711   Prob(JB):                         0.00
+Kurtosis:                      21.164   Cond. No.                         302.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+==========================================================================================
+SEASON-SPECIFIC REGRESSIONS
+==========================================================================================
+
+Season 1
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.338
+Model:                            OLS   Adj. R-squared:                  0.327
+Method:                 Least Squares   F-statistic:                     68.68
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           7.21e-39
+Time:                        15:18:40   Log-Likelihood:                -1430.1
+No. Observations:                 249   AIC:                             2870.
+Df Residuals:                     244   BIC:                             2888.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                               249.1416     93.536      2.664      0.008      65.814     432.469
+log_closest_farm_distance           -27.9814     11.426     -2.449      0.014     -50.376      -5.586
+log_mean_distance_3_nearest_farms   -17.8606     19.124     -0.934      0.350     -55.344      19.623
+farm_density_100km                    5.2137      0.909      5.738      0.000       3.433       6.995
+inverse_distance_score_100km        -38.6447     46.660     -0.828      0.408    -130.096      52.807
+==============================================================================
+Omnibus:                      217.147   Durbin-Watson:                   0.916
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             5265.450
+Skew:                           3.309   Prob(JB):                         0.00
+Kurtosis:                      24.534   Cond. No.                         319.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Season 2
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.426
+Model:                            OLS   Adj. R-squared:                  0.418
+Method:                 Least Squares   F-statistic:                     78.20
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           1.83e-43
+Time:                        15:18:40   Log-Likelihood:                -1440.6
+No. Observations:                 265   AIC:                             2891.
+Df Residuals:                     260   BIC:                             2909.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                                 3.7034     51.345      0.072      0.943     -96.932     104.338
+log_closest_farm_distance           -12.6237      7.784     -1.622      0.105     -27.879       2.632
+log_mean_distance_3_nearest_farms    23.9282     10.798      2.216      0.027       2.765      45.092
+farm_density_100km                    4.8043      0.810      5.934      0.000       3.217       6.391
+inverse_distance_score_100km         24.6911     33.627      0.734      0.463     -41.217      90.599
+==============================================================================
+Omnibus:                      151.732   Durbin-Watson:                   1.732
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1566.608
+Skew:                           2.084   Prob(JB):                         0.00
+Kurtosis:                      14.159   Cond. No.                         293.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Season 3
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.160
+Model:                            OLS   Adj. R-squared:                  0.147
+Method:                 Least Squares   F-statistic:                     24.49
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           2.77e-17
+Time:                        15:18:40   Log-Likelihood:                -1421.2
+No. Observations:                 272   AIC:                             2852.
+Df Residuals:                     267   BIC:                             2870.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                                 8.7526     48.140      0.182      0.856     -85.599     103.105
+log_closest_farm_distance            -3.2401      6.931     -0.467      0.640     -16.824      10.344
+log_mean_distance_3_nearest_farms    16.3272      8.715      1.873      0.061      -0.754      33.409
+farm_density_100km                    2.1816      0.667      3.270      0.001       0.874       3.489
+inverse_distance_score_100km         14.6883     28.805      0.510      0.610     -41.769      71.145
+==============================================================================
+Omnibus:                      353.014   Durbin-Watson:                   1.123
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            29765.057
+Skew:                           5.847   Prob(JB):                         0.00
+Kurtosis:                      52.896   Cond. No.                         291.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Season 4
+----------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.581
+Model:                            OLS   Adj. R-squared:                  0.571
+Method:                 Least Squares   F-statistic:                     115.7
+Date:                Thu, 12 Mar 2026   Prob (F-statistic):           1.08e-47
+Time:                        15:18:40   Log-Likelihood:                -1015.8
+No. Observations:                 177   AIC:                             2042.
+Df Residuals:                     172   BIC:                             2058.
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                               226.6332     94.992      2.386      0.017      40.452     412.814
+log_closest_farm_distance           -42.6131     14.298     -2.980      0.003     -70.636     -14.590
+log_mean_distance_3_nearest_farms    -7.4597     19.250     -0.388      0.698     -45.188      30.269
+farm_density_100km                    8.9438      1.141      7.838      0.000       6.707      11.180
+inverse_distance_score_100km        -39.2975     53.603     -0.733      0.463    -144.357      65.762
+==============================================================================
+Omnibus:                      141.915   Durbin-Watson:                   1.077
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             2434.681
+Skew:                           2.772   Prob(JB):                         0.00
+Kurtosis:                      20.303   Cond. No.                         302.
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)

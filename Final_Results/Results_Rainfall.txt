@@ -1,0 +1,452 @@
+
+==============================================================================================
+RAINFALL VS AQI ANALYSIS
+==============================================================================================
+Years used for AQI: 2018 to 2020
+AQI is segmented by season: 1=Jan-Mar, 2=Apr-Jun, 3=Jul-Sep, 4=Oct-Dec
+Rainfall is matched by district/city first, then state as fallback.
+USE_BOTH_CITY_AND_STATE = True
+CITY_WEIGHT = 10.0
+STATE_WEIGHT = 1.0
+Total station-season-year observations: 963
+Unique stations used: 109
+Rainfall source usage:
+  state_only: 634
+  district+state_weighted: 329
+
+==============================================================================================
+OVERALL CORRELATION ANALYSIS
+==============================================================================================
+
+AQI_mean vs district_seasonal_rainfall_mm
+Observations: 329
+Pearson r: -0.4495240509915707
+Pearson p-value: 9.069696401616657e-18
+Pearson r^2: 0.20207187241987226
+Spearman rho: -0.5816722416418084
+Spearman p-value: 3.553331223599946e-31
+Formal t-statistic: -9.100073957473736
+Formal t-test p-value: 0.0
+
+AQI_mean vs state_seasonal_rainfall_mm
+Observations: 963
+Pearson r: -0.41556569694169465
+Pearson p-value: 1.6907290824236554e-41
+Pearson r^2: 0.1726948484746364
+Spearman rho: -0.4470545690057732
+Spearman p-value: 1.6988261701439273e-48
+Formal t-statistic: -14.1634326210582
+Formal t-test p-value: 0.0
+
+AQI_mean vs weighted_seasonal_rainfall_mm
+Observations: 963
+Pearson r: -0.3712014557301485
+Pearson p-value: 7.943743985206948e-33
+Pearson r^2: 0.1377905207361814
+Spearman rho: -0.38928574156123896
+Spearman p-value: 3.343864683375904e-36
+Formal t-statistic: -12.392672361156114
+Formal t-test p-value: 0.0
+
+AQI_mean vs log_weighted_seasonal_rainfall_mm
+Observations: 963
+Pearson r: -0.3814252868569527
+Pearson p-value: 1.041589563348696e-34
+Pearson r^2: 0.14548524945390867
+Spearman rho: -0.38928574156123896
+Spearman p-value: 3.343864683375904e-36
+Formal t-statistic: -12.791203060542559
+Formal t-test p-value: 0.0
+
+==============================================================================================
+SEASON-BY-SEASON CORRELATION ANALYSIS
+==============================================================================================
+
+Season 1
+---------------------------------------------------------------------------
+Observations: 249
+Unique stations: 109
+
+Season 1: AQI_mean vs district_seasonal_rainfall_mm
+Observations: 86
+Pearson r: -0.020415255378913994
+Pearson p-value: 0.8519959575624528
+Pearson r^2: 0.00041678265218627675
+Spearman rho: 0.08381082190023309
+Spearman p-value: 0.4429581078535051
+Formal t-statistic: -0.1871479102771317
+Formal t-test p-value: 0.8519959575624534
+
+Season 1: AQI_mean vs state_seasonal_rainfall_mm
+Observations: 249
+Pearson r: 0.4336597808143918
+Pearson p-value: 7.707697109693361e-13
+Pearson r^2: 0.18806080549598636
+Spearman rho: 0.565193644059403
+Spearman p-value: 2.0324205340361902e-22
+Formal t-statistic: 7.563727418469726
+Formal t-test p-value: 7.707168236947837e-13
+
+Season 1: AQI_mean vs weighted_seasonal_rainfall_mm
+Observations: 249
+Pearson r: 0.43041467524132043
+Pearson p-value: 1.1884106655470042e-12
+Pearson r^2: 0.18525679266309134
+Spearman rho: 0.5533007563252977
+Spearman p-value: 2.26601766113474e-21
+Formal t-statistic: 7.4941981678350436
+Formal t-test p-value: 1.1883827255587676e-12
+
+Season 1: AQI_mean vs log_weighted_seasonal_rainfall_mm
+Observations: 249
+Pearson r: 0.43676312363593744
+Pearson p-value: 5.072400096932798e-13
+Pearson r^2: 0.1907620261682212
+Spearman rho: 0.5533007563252977
+Spearman p-value: 2.26601766113474e-21
+Formal t-statistic: 7.6305582661346465
+Formal t-test p-value: 5.073719222536965e-13
+
+Season 2
+---------------------------------------------------------------------------
+Observations: 265
+Unique stations: 109
+
+Season 2: AQI_mean vs district_seasonal_rainfall_mm
+Observations: 90
+Pearson r: -0.4385530017704063
+Pearson p-value: 1.536080742246003e-05
+Pearson r^2: 0.19232873536183398
+Spearman rho: -0.5796160140003406
+Spearman p-value: 2.1525284365036993e-09
+Formal t-statistic: -4.5776871448322405
+Formal t-test p-value: 1.5360807422482026e-05
+
+Season 2: AQI_mean vs state_seasonal_rainfall_mm
+Observations: 265
+Pearson r: 0.12003908263563234
+Pearson p-value: 0.0509476203541723
+Pearson r^2: 0.014409381360004171
+Spearman rho: 0.20510050259901233
+Spearman p-value: 0.0007828493021812107
+Formal t-statistic: 1.9608856194150162
+Formal t-test p-value: 0.05094762035417255
+
+Season 2: AQI_mean vs weighted_seasonal_rainfall_mm
+Observations: 265
+Pearson r: 0.18372483869876216
+Pearson p-value: 0.0026796308939322643
+Pearson r^2: 0.033754816354886176
+Spearman rho: 0.38496862769842904
+Spearman p-value: 8.639861035086598e-11
+Formal t-statistic: 3.0311126562862016
+Formal t-test p-value: 0.0026796308939323055
+
+Season 2: AQI_mean vs log_weighted_seasonal_rainfall_mm
+Observations: 265
+Pearson r: 0.2377922039378047
+Pearson p-value: 9.272019693908664e-05
+Pearson r^2: 0.0565451322535985
+Spearman rho: 0.38496862769842904
+Spearman p-value: 8.639861035086598e-11
+Formal t-statistic: 3.9702231883022194
+Formal t-test p-value: 9.272019693895572e-05
+
+Season 3
+---------------------------------------------------------------------------
+Observations: 272
+Unique stations: 108
+
+Season 3: AQI_mean vs district_seasonal_rainfall_mm
+Observations: 95
+Pearson r: -0.18782007830320507
+Pearson p-value: 0.06835394285887454
+Pearson r^2: 0.03527638181382209
+Spearman rho: -0.45873969827351546
+Spearman p-value: 2.9347674541210916e-06
+Formal t-statistic: -1.844089674216765
+Formal t-test p-value: 0.06835394285887464
+
+Season 3: AQI_mean vs state_seasonal_rainfall_mm
+Observations: 272
+Pearson r: -0.3112353054880227
+Pearson p-value: 1.604826050595729e-07
+Pearson r^2: 0.09686741538222281
+Spearman rho: -0.5533935486036651
+Spearman p-value: 3.177991988737916e-23
+Formal t-statistic: -5.381396379880154
+Formal t-test p-value: 1.6048260498280342e-07
+
+Season 3: AQI_mean vs weighted_seasonal_rainfall_mm
+Observations: 272
+Pearson r: -0.1807389463813167
+Pearson p-value: 0.002773627221708793
+Pearson r^2: 0.03266656673902848
+Spearman rho: -0.4319982234231716
+Spearman p-value: 8.572657643202758e-14
+Formal t-statistic: -3.019572970687875
+Formal t-test p-value: 0.0027736272217089297
+
+Season 3: AQI_mean vs log_weighted_seasonal_rainfall_mm
+Observations: 272
+Pearson r: -0.16618148586585402
+Pearson p-value: 0.006009888315431181
+Pearson r^2: 0.027616286244583038
+Spearman rho: -0.4319982234231716
+Spearman p-value: 8.572657643202758e-14
+Formal t-statistic: -2.7691449011880227
+Formal t-test p-value: 0.0060098883154311444
+
+Season 4
+---------------------------------------------------------------------------
+Observations: 177
+Unique stations: 101
+
+Season 4: AQI_mean vs district_seasonal_rainfall_mm
+Observations: 58
+Pearson r: -0.07494926869122247
+Pearson p-value: 0.5760535340536477
+Pearson r^2: 0.00561739287734906
+Spearman rho: -0.21856436018901737
+Spearman p-value: 0.09929169539229762
+Formal t-statistic: -0.5624509484171918
+Formal t-test p-value: 0.5760535340536479
+
+Season 4: AQI_mean vs state_seasonal_rainfall_mm
+Observations: 177
+Pearson r: -0.3761926546068072
+Pearson p-value: 2.4657299156544496e-07
+Pearson r^2: 0.14152091338011652
+Spearman rho: -0.2163841907249701
+Spearman p-value: 0.0038187359880364185
+Formal t-statistic: -5.3711153066997115
+Formal t-test p-value: 2.465729915801518e-07
+
+Season 4: AQI_mean vs weighted_seasonal_rainfall_mm
+Observations: 177
+Pearson r: -0.3724110268349107
+Pearson p-value: 3.319971512740983e-07
+Pearson r^2: 0.13868997290823257
+Spearman rho: -0.19619581647255188
+Spearman p-value: 0.008865219304426417
+Formal t-statistic: -5.308377557594872
+Formal t-test p-value: 3.319971513260356e-07
+
+Season 4: AQI_mean vs log_weighted_seasonal_rainfall_mm
+Observations: 177
+Pearson r: -0.359065553920106
+Pearson p-value: 9.206768887818994e-07
+Pearson r^2: 0.12892807201195253
+Spearman rho: -0.19619581647255188
+Spearman p-value: 0.008865219304426417
+Formal t-statistic: -5.089390320637592
+Formal t-test p-value: 9.206768887271011e-07
+
+==============================================================================================
+OVERALL REGRESSION WITHOUT SEASON FIXED EFFECTS
+==============================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.138
+Model:                            OLS   Adj. R-squared:                  0.137
+Method:                 Least Squares   F-statistic:                     75.06
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):           1.91e-17
+Time:                        15:06:11   Log-Likelihood:                -5728.3
+No. Observations:                 963   AIC:                         1.146e+04
+Df Residuals:                     961   BIC:                         1.147e+04
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           200.3274      5.830     34.363      0.000     188.901     211.753
+weighted_seasonal_rainfall_mm   -11.2611      1.300     -8.664      0.000     -13.809      -8.713
+==============================================================================
+Omnibus:                      252.814   Durbin-Watson:                   0.976
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              750.714
+Skew:                           1.300   Prob(JB):                    9.65e-164
+Kurtosis:                       6.457   Cond. No.                         7.22
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+==============================================================================================
+OVERALL REGRESSION WITH SEASON FIXED EFFECTS
+==============================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.312
+Model:                            OLS   Adj. R-squared:                  0.310
+Method:                 Least Squares   F-statistic:                     121.6
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):           6.52e-84
+Time:                        15:06:11   Log-Likelihood:                -5619.3
+No. Observations:                 963   AIC:                         1.125e+04
+Df Residuals:                     958   BIC:                         1.127e+04
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           202.5608      6.132     33.034      0.000     190.542     214.579
+weighted_seasonal_rainfall_mm     1.5172      1.694      0.895      0.371      -1.804       4.838
+season_2                        -71.4225      8.853     -8.068      0.000     -88.773     -54.072
+season_3                       -120.5703     11.090    -10.872      0.000    -142.306     -98.834
+season_4                         35.2914     10.588      3.333      0.001      14.540      56.043
+==============================================================================
+Omnibus:                      265.775   Durbin-Watson:                   0.597
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1401.350
+Skew:                           1.162   Prob(JB):                    5.02e-305
+Kurtosis:                       8.434   Cond. No.                         24.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+==============================================================================================
+OVERALL REGRESSION WITH LOG RAINFALL AND SEASON FIXED EFFECTS
+==============================================================================================
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.320
+Model:                            OLS   Adj. R-squared:                  0.317
+Method:                 Least Squares   F-statistic:                     137.5
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):           7.36e-93
+Time:                        15:06:11   Log-Likelihood:                -5613.9
+No. Observations:                 963   AIC:                         1.124e+04
+Df Residuals:                     958   BIC:                         1.126e+04
+Df Model:                           4                                         
+Covariance Type:                  HC3                                         
+=====================================================================================================
+                                        coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------------------------
+const                               190.2646      7.989     23.816      0.000     174.606     205.923
+log_weighted_seasonal_rainfall_mm    23.7271      7.687      3.087      0.002       8.661      38.793
+season_2                            -88.4968      9.346     -9.469      0.000    -106.814     -70.179
+season_3                           -145.1692     10.930    -13.281      0.000    -166.592    -123.746
+season_4                             31.0732     10.552      2.945      0.003      10.392      51.755
+==============================================================================
+Omnibus:                      289.901   Durbin-Watson:                   0.624
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1764.087
+Skew:                           1.233   Prob(JB):                         0.00
+Kurtosis:                       9.155   Cond. No.                         10.6
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+==============================================================================================
+SEASON-SPECIFIC REGRESSIONS
+==============================================================================================
+
+Season 1
+---------------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.185
+Model:                            OLS   Adj. R-squared:                  0.182
+Method:                 Least Squares   F-statistic:                     28.87
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):           1.79e-07
+Time:                        15:06:11   Log-Likelihood:                -1455.8
+No. Observations:                 249   AIC:                             2916.
+Df Residuals:                     247   BIC:                             2923.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           143.0930     14.047     10.186      0.000     115.561     170.625
+weighted_seasonal_rainfall_mm    70.2128     13.068      5.373      0.000      44.601      95.825
+==============================================================================
+Omnibus:                      185.629   Durbin-Watson:                   0.889
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             3759.419
+Skew:                           2.663   Prob(JB):                         0.00
+Kurtosis:                      21.275   Cond. No.                         3.35
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Season 2
+---------------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.034
+Model:                            OLS   Adj. R-squared:                  0.030
+Method:                 Least Squares   F-statistic:                    0.6779
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):              0.411
+Time:                        15:06:11   Log-Likelihood:                -1509.7
+No. Observations:                 265   AIC:                             3023.
+Df Residuals:                     263   BIC:                             3031.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           119.9843     20.459      5.865      0.000      79.886     160.082
+weighted_seasonal_rainfall_mm     4.1150      4.998      0.823      0.410      -5.681      13.911
+==============================================================================
+Omnibus:                       53.160   Durbin-Watson:                   1.056
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):              113.968
+Skew:                           0.985   Prob(JB):                     1.79e-25
+Kurtosis:                       5.537   Cond. No.                         9.10
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Season 3
+---------------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.033
+Model:                            OLS   Adj. R-squared:                  0.029
+Method:                 Least Squares   F-statistic:                     5.587
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):             0.0188
+Time:                        15:06:11   Log-Likelihood:                -1440.3
+No. Observations:                 272   AIC:                             2885.
+Df Residuals:                     270   BIC:                             2892.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           114.8574      8.038     14.289      0.000      99.103     130.612
+weighted_seasonal_rainfall_mm    -3.3889      1.434     -2.364      0.018      -6.199      -0.579
+==============================================================================
+Omnibus:                      303.484   Durbin-Watson:                   0.976
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):            15933.418
+Skew:                           4.652   Prob(JB):                         0.00
+Kurtosis:                      39.323   Cond. No.                         20.1
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
+
+Season 4
+---------------------------------------------------------------------------
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:               aqi_mean   R-squared:                       0.139
+Model:                            OLS   Adj. R-squared:                  0.134
+Method:                 Least Squares   F-statistic:                     25.62
+Date:                Thu, 19 Mar 2026   Prob (F-statistic):           1.05e-06
+Time:                        15:06:11   Log-Likelihood:                -1079.5
+No. Observations:                 177   AIC:                             2163.
+Df Residuals:                     175   BIC:                             2169.
+Df Model:                           1                                         
+Covariance Type:                  HC3                                         
+=================================================================================================
+                                    coef    std err          z      P>|z|      [0.025      0.975]
+-------------------------------------------------------------------------------------------------
+const                           347.8402     25.302     13.748      0.000     298.250     397.431
+weighted_seasonal_rainfall_mm   -89.0674     17.598     -5.061      0.000    -123.559     -54.576
+==============================================================================
+Omnibus:                        2.373   Durbin-Watson:                   0.476
+Prob(Omnibus):                  0.305   Jarque-Bera (JB):                2.050
+Skew:                           0.257   Prob(JB):                        0.359
+Kurtosis:                       3.120   Cond. No.                         5.40
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity robust (HC3)
